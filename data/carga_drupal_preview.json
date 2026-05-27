@@ -1,0 +1,27 @@
+[
+  {
+    "excel_row_number": "2",
+    "archivo_pdf": "64-RD-0156-2026-04.pdf",
+    "codigo_base": "64-RD-0156-2026",
+    "adjuntos": [
+      "64-RD-0156-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0156-2026-01-PLANO.pdf"
+    ],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0156-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-05-26",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "156",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- OTORGAR Autorización de uso temporal de un área de terreno de la bifurcación izquierda del rio Inambari para siembra de cultivos de 5.00 ha a favor del señor DINER SANCHEZ MOLINA, identificado con DNI N° 71515428, dicha área se ubica en el sector Ponal, distrito de Inambari, provincia de Tambopata y departamento de Madre de Dios;",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0156-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  }
+]

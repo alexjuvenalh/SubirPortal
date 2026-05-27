@@ -1,0 +1,9 @@
+Para la próxima tanda de RDs
+# 1. Poné los PDFs en pdfs/nuevos/
+# 2. Generá la planilla
+python scripts/generar_planilla.py
+# 3. Revisá el Excel y corregí lo necesario
+# 4. Generá el preview Drupal
+python scripts/preparar_carga_drupal.py
+# 5. Dispará el bot
+python scripts/subir_a_drupal.py

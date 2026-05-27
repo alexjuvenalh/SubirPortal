@@ -1,0 +1,18 @@
+# Browser profile (52 MB) — datos de sesión de Playwright
+data/browser_profile/
+
+# Logs y screenshots (se generan en cada ejecución)
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OneDrive (archivos de sistema)
+**/desktop.ini

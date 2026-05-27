@@ -1,0 +1,75 @@
+{
+  "url_crear_normatividad": "https://www.ana.gob.pe/node/add/normatividad",
+  "campos_activos": {
+    "titulo": {
+      "excel": "titulo_sugerido",
+      "selector": "#edit-title-0-value"
+    },
+    "fecha_rd": {
+      "excel": "fecha_rd",
+      "selector": "#edit-field-fecha-de-aprobacion-de-la-0-value-date",
+      "formato_drupal": "YYYY-MM-DD"
+    },
+    "hora_rd": {
+      "excel": "hora_rd",
+      "selector": "#edit-field-fecha-de-aprobacion-de-la-0-value-time",
+      "formato_drupal": "HH:mm:ss"
+    },
+    "numero_resolucion": {
+      "excel": "numero_resolucion",
+      "selector": "#edit-field-num-resolucion-mat-0-value"
+    },
+    "clasificacion_nivel_1": {
+      "selector": "#edit-field-tipo-de-norma-shs-0-0",
+      "value": "115",
+      "texto_verificado": "Resoluciones Emitidas por la ANA"
+    },
+    "clasificacion_nivel_2": {
+      "selector": "#edit-field-tipo-de-norma-shs-0-1",
+      "value": "129",
+      "texto_verificado": "De las Autoridades Administrativas del Agua"
+    },
+    "resumen": {
+      "excel": "resumen_portal",
+      "ckeditor_iframe": "iframe[title=\"Editor de texto con formato, campo Resumen\"]",
+      "nota": "El textarea real está oculto por CKEditor; llenar el body del iframe visible."
+    },
+    "archivo_pdf": {
+      "excel": "ruta_pdf",
+      "selector_inicial": "#edit-field-file-0-upload",
+      "boton_subir_inicial": "#edit-field-file-0-upload-button",
+      "verificar_fids": "input[name*=\"field_file\"][name$=\"[fids]\"]",
+      "nota": "Después de subir, Drupal crea una fila administrada con fids y un nuevo input vacío para otro archivo."
+    },
+    "ambito_administrativo_nivel_1": {
+      "selector": "#edit-field-administrativo-shs-0-0",
+      "value": "17",
+      "texto_verificado": "AAA Madre de Dios"
+    },
+    "ambito_administrativo_nivel_2": {
+      "selector": "#edit-field-administrativo-shs-0-1",
+      "value": "_none",
+      "texto_verificado": "- None -"
+    }
+  },
+  "campos_no_tocar": [
+    "Información para TNCRH",
+    "CUT",
+    "Autor",
+    "Titulo_Corto",
+    "Año",
+    "Número de resolución opcional inferior",
+    "Materia",
+    "Solicitante",
+    "Administrado",
+    "Sumilla",
+    "Etiquetas",
+    "Gestionamos a través de",
+    "Destacar en Accesos Directos (Portada)"
+  ],
+  "criterios": {
+    "no_guardar_sin_confirmacion": true,
+    "no_publicar_directo_en_pruebas": true,
+    "usar_resumen_portal_como_resumen": true
+  }
+}
