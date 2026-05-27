@@ -122,6 +122,31 @@ def extract_resolution_data(pdf_path: Path) -> dict[str, str]:
     }
 
 
+def clean_article_ending(article: str) -> str:
+    """Asegura que el artículo termine con punto final.
+
+    Si termina en coma, punto y coma, dos puntos, o cualquier otro signo
+    de puntuación que no sea . ! ? → lo reemplaza por punto.
+    Si no tiene puntuación final → agrega punto.
+    """
+    article = article.rstrip()
+    if not article:
+        return article
+
+    last_char = article[-1]
+    # Puntuación válida de final de oración: mantener
+    if last_char in (".", "!", "?"):
+        return article
+
+    # Letra o número: agregar punto
+    if last_char.isalnum():
+        return article + "."
+
+    # Cualquier otro signo de puntuación (coma, punto y coma, dos puntos, etc.):
+    # reemplazar por punto
+    return article[:-1] + "."
+
+
 def remove_table_from_article(article: str) -> str:
     """Corta el texto del artículo justo antes de que empiece un cuadro/tabla.
 
@@ -198,6 +223,7 @@ def _extract_articulo_articles(clean_text: str, limit: int) -> list[str]:
     for match in pattern.finditer(clean_text):
         article = normalize_spaces(match.group(1))
         article = remove_table_from_article(article)
+        article = clean_article_ending(article)
         articles.append(article)
         if len(articles) >= limit:
             break
@@ -226,6 +252,7 @@ def _extract_resuelve_articles(clean_text: str, limit: int) -> list[str]:
     for match in pattern.finditer(post_resuelve):
         article = normalize_spaces(match.group(1))
         article = remove_table_from_article(article)
+        article = clean_article_ending(article)
         articles.append(article)
         if len(articles) >= limit:
             break
