@@ -159,6 +159,8 @@ def remove_table_from_article(article: str) -> str:
     """
     # --- Fase 1: frases introductorias de cuadro ---
     table_intro_patterns = [
+        r"cuyo\s+detalle.*?(?:siguiente\s+)?cuadro\s*:",
+        r"se\s+describen?\s+en\s+el\s+siguiente\s+cuadro\s*:",
         r"cuyo\s+detalle\s+es\s+el\s+siguiente\s*:",
         r"conforme\s+al\s+siguiente\s+detalle\s*:",
         r"seg[uú]n\s+el\s+siguiente\s+detalle\s*:",

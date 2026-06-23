@@ -1,25 +1,176 @@
 [
   {
     "excel_row_number": "2",
-    "archivo_pdf": "64-RD-0156-2026-04.pdf",
-    "codigo_base": "64-RD-0156-2026",
-    "adjuntos": [
-      "64-RD-0156-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0156-2026-01-PLANO.pdf"
-    ],
+    "archivo_pdf": "64-RD-0160-2026-06.pdf",
+    "codigo_base": "64-RD-0160-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0156-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-05-26",
+      "titulo": "RD N° 0160-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-05-28",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "156",
+      "numero_resolucion": "160",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- OTORGAR Autorización de uso temporal de un área de terreno de la bifurcación izquierda del rio Inambari para siembra de cultivos de 5.00 ha a favor del señor DINER SANCHEZ MOLINA, identificado con DNI N° 71515428, dicha área se ubica en el sector Ponal, distrito de Inambari, provincia de Tambopata y departamento de Madre de Dios;",
-      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0156-2026-04.pdf",
+      "resumen": "ARTÍCULO 1.- DECLARAR la EXTINCIÓN de Licencia de uso de agua subterránea en vía de regularización con fines mineros, otorgada mediante la Resolución Administrativa N° 452- 2012-ANA-ALAM de fecha 14.11.2012, a favor del señor Víctor Damaso Araos Fuentes, identificado con DNI N° 04813153 y RUC N° 10048131536, por la causal prevista en el numeral 1 del artículo 71 de la Ley de Recursos Hídricos: Muerte del titular del derecho.",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0160-2026-06.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "3",
+    "archivo_pdf": "59-RD-0161-2026-04.pdf",
+    "codigo_base": "59-RD-0161-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0161-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-05-28",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "161",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- OTORGAR, Autorización de Uso de Agua subterránea para la ejecución de obras para el proyecto denominado “Mejoramiento y ampliación del servicio educación inicial en las instituciones educativas Nro 292 San Bernardo, Nro 312 Tres Islas, Nro 313 Palma Real, Nro 378 los Pihuichitos Santa Teresita, Nro 398 el castañal y Nro 395 Primero de Agosto del Distrito de Tambopata, provincia de Tambopata - Madre de Dios”, a favor del GOBIERNO REGIONAL MADRE DE DIOS con RUC N° 2057143200, cuyo aprovechamiento de agua será por un volumen anual de hasta 21 039.00 m 3.",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0161-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "4",
+    "archivo_pdf": "64-RD-0162-2026-06.pdf",
+    "codigo_base": "64-RD-0162-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0162-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-05-28",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "162",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR la EXTINCIÓN de Licencia de uso de agua superficial con fines mineros, otorgada mediante la Resolución Administrativa N° 238-2010-ANA-ALAM de fecha 02.11.2010, a favor del señor Luis Ramos Valdez, identificado con DNI N° 04804738, por la causal prevista en el numeral 1 del artículo 71 de la Ley de Recursos Hídricos: Muerte del titular del derecho.",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0162-2026-06.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "5",
+    "archivo_pdf": "64-RD-0163-2026-04.pdf",
+    "codigo_base": "64-RD-0163-2026",
+    "adjuntos": [
+      "64-RD-0163-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0163-2026-01-PLANO.pdf"
+    ],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0163-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-06-01",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "163",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- APROBAR los estudios de huella máxima que conforma el “Estudio de delimitación de la faja marginal en un tramo de 550 metros en ambas márgenes de la quebrada Quintana, ubicado en el centro poblado Nueva, distrito de Huepetuhe, provincia de Manu, departamento de Madre de Dios”, elaborado por el Área Técnica de esta Autoridad Administrativa del Agua, conforme a la metodología establecida en artículo 10 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0163-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "6",
+    "archivo_pdf": "64-RD-0164-2026-04.pdf",
+    "codigo_base": "64-RD-0164-2026",
+    "adjuntos": [
+      "64-RD-0164-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0164-2026-01-PLANO.pdf"
+    ],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0164-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-06-01",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "164",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- APROBAR los estudios de huella máxima que conforma el Estudio de delimitación de la faja marginal en un tramo de 860 metros en ambas márgenes de la quebrada Seca, ubicado en el centro poblado Nueva, distrito de Huepetuhe, provincia de Manu, departamento de Madre de Dios”, elaborado por el área técnica de esta Autoridad Administrativa del Agua, conforme a la metodología establecida en artículo 10 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0164-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "7",
+    "archivo_pdf": "59-RD-0165-2026-08.pdf",
+    "codigo_base": "59-RD-0165-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0165-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-06-04",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "165",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- SANCIONAR a la UNIDAD EJECUTORA 1392 - SUB REGION MANU con RUC N° 20490448951, con una sanción administrativa de MULTA, equivalente a cero coma cincuenta (0,50) UIT, por la infracción calificada como leve en materia de agua, por la construcción de una estructura de captación conformada por una bocatoma ubicada en la quebrada Isla de Los Valles, con un ancho de 3.00 m, muro de encauzamiento de 1.50 m y barraje de 1.20 m, además de una cámara de captación de concreto con tapas metálicas y tubería de conducción de PVC de 3”, sin autorización de la Autoridad Nacional del Agua, cuyo detalle de infracción, sanción y fuente natural de agua se describen en el siguiente cuadro: PLAZOS INFRACTOR RUC RAZÓN SOCIAL CALIFICACIÓN TIPO MONTO (UIT) Multa Medida complem entaria 20490448951 UNIDAD EJECUTORA 1392 SUB REGIÓN MANU SANCIÓN Leve Multa 0.50 15 días hábiles 90 días DESCRIPCIÓN DE LOS HECHOS ORIGEN TIPO UNIDAD HIDROGRÁFICA Superficial Quebrada Intercuenca Alto Madre de Dios (46649) Construcción de una estructura de captación conformada por una bocatoma ubicada en la quebrada Isla de Los Valles, con un ancho de 3.00 m, muro de encauzamiento de 1.50 m y barraje de 1.20 m, además de una cámara de captación de concreto con tapas metálicas y tubería de conducción de PVC de 3”, sin contar con la autorización de ejecución de obras con fines de aprovechamiento hídrico correspondiente. UBICACIÓN GEOGRAFICA DE LA INFRACCIÓN.",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0165-2026-08.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "8",
+    "archivo_pdf": "59-RD-0166-2026-04.pdf",
+    "codigo_base": "59-RD-0166-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0166-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-06-04",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "166",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- SANCIONAR al señor JORGE DAVID TRIGOSO REATEGUI identificado con DNI N° 04824031, con una AMONESTACIÓN ESCRITA, por la infracción calificada como leve en materia de agua, por utilizar el agua con fines de uso doméstico-poblacional, en el distrito Las Piedras, provincia de Tambopata, departamento de Madre de Dios, cuyo detalle de infracción, sanción y fuente natural de agua se describen en el siguiente cuadro: INFRACTOR DNI N° NOMBRE CALIFICACIÓN TIPO MONTO (UIT) PLAZO CUMPLIMIENTO (Días Hábiles) 04824031 JORGE DAVID TRIGOSO REATEGUI SANCIÓN LEVE Amonestación Escrito --- --- DESCRIPCIÓN DE LOS HECHOS CLASE TIPO NOMBRE UNIDAD HIDROGRÁFICA Utilizar el agua con fines de uso doméstico-poblacional sin el correspondiente derecho de uso otorgado por la Autoridad Nacional del Agua, en el distrito Las Piedras, provincia de Tambopata, departamento de Madre de Dios. Subterránea Pozo Mixto S/N Cuenca Orthon (4662) TIPIFICACIÓN COORDENADAS DEL POZO PERFORADO Art. 120 LEY RECURSOS HÍDRICOS Art. 277 REGLAMENTO LRH DÁTUM ZONA ESTE (m) NORTE (m) UTM WGS84 19 S 487 114 8 672 252 UBICACIÓN POLÍTICA DEPARTAMENTO PROVINCIA DISTRITO INFRACCIÓN 1. Utilizar el agua sin el correspondiente derecho de uso a. Usar, represar o desviar las aguas sin el correspondiente derecho de uso de agua o autorización de la Autoridad Nacional del Agua FUENTE NATURAL DE AGUA Madre de Dios Tambopata Las Piedras.",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0166-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "9",
+    "archivo_pdf": "59-RD-0167-2026-05.pdf",
+    "codigo_base": "59-RD-0167-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0167-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-06-04",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "167",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- SANCIONAR a la señora EUSEBIA JULIANA COLQUE FLORES, identificada con DNI N° 04827841, con una AMONESTACIÓN ESCRITA, por la infracción calificada como leve en materia de agua, por utilizar el agua con fines de uso doméstico-poblacional en el sector Santa Rosa - Km 504, Carretera Interoceánica Puerto Maldonado - Iñapari, distrito de Las Piedras, provincia de Tambopata, departamento de Madre de Dios, cuyo detalle de infracción, sanción y fuente natural de agua se describen en el siguiente cuadro: INFRACTOR DNI N° NOMBRE CALIFICACIÓN TIPO MONTO (UIT) PLAZO CUMPLIMIENTO (Días Hábiles) 04827841 EUSEBIA JULIANA COLQUE FLORES SANCIÓN LEVE Amonestación Escrita --- --- DESCRIPCIÓN DE LOS HECHOS ORIGEN NOMBRE LA FUENTE TIPO UNIDAD HIDROGRÁFICA Utilizar el agua con fines de uso doméstico-poblacional sin el correspondiente derecho de uso otorgado por la Autoridad Nacional del Agua, en el sector Santa Rosa - Km 504, Carretera Interoceánica Puerto Maldonado - Iñapari, distrito de Las Piedras, provincia de Tambopata, departamento de Madre de Dios. Subterránea Acuífero Cuenca Orthon (4662) Pozo Mixto Cuenca Orthon (4662) TIPIFICACIÓN COORDENADAS DEL POZO PERFORADO Art. 120 LEY RECURSOS HÍDRICOS Art. 277 REGLAMENTO LRH DÁTUM ZONA ESTE (m) NORTE (m) UTM WGS84 19 S 484 976 8 673 214 UBICACIÓN POLÍTICA DEPARTAMENTO PROVINCIA DISTRITO SECTOR INFRACCIÓN 1. Utilizar el agua sin el correspondiente derecho de uso a. Usar, represar o desviar las aguas sin el correspondiente derecho de uso de agua o autorización de la Autoridad Nacional del Agua FUENTE NATURAL DE AGUA Madre de Dios Tambopata Las Piedras Santa Rosa - Km 504, Carretera Interoceánica Puerto Maldonado - Iñapari.",
+      "ruta_pdf": "D:\\Archivos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0167-2026-05.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
