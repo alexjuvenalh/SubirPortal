@@ -36,7 +36,7 @@ SCREENSHOTS_DIR = ROOT / "logs" / "screenshots"
 
 # Tiempos de espera (ms) — Drupal con AJAX puede ser lento
 AJAX_TIMEOUT = 15_000
-NAV_TIMEOUT = 30_000
+NAV_TIMEOUT = 60_000  # 60s: el portal ANA a veces tarda, y networkidle es frágil
 ELEMENT_TIMEOUT = 10_000
 
 # Selectores clave verificados en dry-run
@@ -135,7 +135,7 @@ class DrupalUploadBot:
         if "403" in page_title or "/user/login" not in current_url:
             self.log("  Navegando a página de login...")
             await page.goto("https://www.ana.gob.pe/user/login",
-                          wait_until="networkidle", timeout=NAV_TIMEOUT)
+                          wait_until="load", timeout=NAV_TIMEOUT)
 
         # Esperar a que el usuario se loguee manualmente
         return await self.wait_for_manual_login(page)
@@ -469,8 +469,10 @@ class DrupalUploadBot:
         try:
             # 1. Navegar al formulario de creación
             self.log("🌐 Navegando al formulario...")
-            await page.goto(payload["url"], wait_until="networkidle",
+            await page.goto(payload["url"], wait_until="load",
                           timeout=NAV_TIMEOUT)
+            # Pequeña pausa para que Drupal termine redirects JS (login -> form)
+            await asyncio.sleep(2)
 
             # 2. Verificar autenticación
             if not await self.ensure_logged_in(page):
@@ -538,7 +540,7 @@ class DrupalUploadBot:
                     if upload_attempt == 0:
                         self.log("  🔄 Refrescando formulario para reintentar...")
                         await page.goto(payload["url"],
-                                      wait_until="networkidle",
+                                      wait_until="load",
                                       timeout=NAV_TIMEOUT)
                         await self.ensure_logged_in(page)
                         # Re-llenar campos que se perdieron con el refresh

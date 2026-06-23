@@ -158,14 +158,19 @@ def remove_table_from_article(article: str) -> str:
     'Este (m)', 'Norte (m)', patrones de vértices (v1, v2...), etc.
     """
     # --- Fase 1: frases introductorias de cuadro ---
+    # Orden importa: patrones más específicos primero para que no los
+    # capture uno más genérico antes.
     table_intro_patterns = [
         r"cuyo\s+detalle.*?(?:siguiente\s+)?cuadro\s*:",
         r"se\s+describen?\s+en\s+el\s+siguiente\s+cuadro\s*:",
         r"cuyo\s+detalle\s+es\s+el\s+siguiente\s*:",
+        # "Autorización de ejecución de obras": corta ANTES de "conforme"
+        # para que el resumen termine con el nombre del proyecto, sin specs técnicas.
+        r"conforme\s+a\s+las?\s+especificaciones\s+t[ée]cnicas\s+del\s+referido\s+proyecto",
         r"conforme\s+al\s+siguiente\s+detalle\s*:",
         r"seg[uú]n\s+el\s+siguiente\s+detalle\s*:",
         r"de\s+acuerdo\s+al\s+siguiente\s+detalle\s*:",
-        r"el\s+siguiente\s+detalle\s*:",
+        r"(?:al|el)\s+siguiente\s+detalle\s*:",
         r"detalle\s+siguiente\s*:",
     ]
     for pattern in table_intro_patterns:
@@ -182,6 +187,9 @@ def remove_table_from_article(article: str) -> str:
         r"V[ée]rtices\s+Este\s*\(\s*m\s*\)",       # "Vértices Este (m)"
         r"Coordenadas\s+UTM",                        # "Coordenadas UTM"
         r"UBICACI[ÓO]N\s+GEOGR[ÁA]FICA",             # "UBICACIÓN GEOGRÁFICA"
+        r"Cuadro\s+N[°º]?\s*\d+",                   # "Cuadro N° 01", "Cuadro Nro 02"
+        r"DATOS\s+DEL\s+ADMINISTRADO",               # tabla de datos en autorizaciones
+        r"ESTE\s*\(\s*m\s*\)",                       # columna "Este (m)" en tablas de coordenadas
     ]
     for pattern in table_markers:
         m = re.search(pattern, article, re.IGNORECASE)
@@ -216,7 +224,8 @@ def _extract_articulo_articles(clean_text: str, limit: int) -> list[str]:
       - ARTÍCULO 1º.-  (ordinal masculino + guion)
     """
     # El patrón acepta opcionalmente ° o º entre el número y el .-
-    art_prefix = r"ART[ÍI]CULO\s+\d+\s*[°º]?\s*\.-"
+    # Solo artículos 1-20: evita capturar referencias legales como "Articulo 257.-"
+    art_prefix = r"ART[ÍI]CULO\s+(?:1[0-9]|20|[1-9])\s*[°º]?\s*\.-"
     pattern = re.compile(
         rf"({art_prefix}\s*.*?)(?={art_prefix}|Regístrese|FIRMADO DIGITALMENTE|$)",
         re.I | re.S,
