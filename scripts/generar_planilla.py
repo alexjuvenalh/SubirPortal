@@ -384,11 +384,12 @@ def es_adjunto(nombre_pdf: str) -> bool:
 
     Soporta formatos:
       - RD-XXXX-YYYY-PLANO.pdf          (plano simple)
+      - RD-XXXX-YYYY-PLANO1.pdf         (plano con número pegado)
       - RD-XXXX-YYYY-PLANO-01.pdf       (plano con índice, ej. múltiples planos)
       - RD-XXXX-YYYY-ANEXO.pdf
       - RD-XXXX-YYYY-ANEXO-02.pdf
     """
-    return bool(re.search(r"-(PLANO|ANEXO)(-\d+)?\.pdf$", nombre_pdf, re.IGNORECASE))
+    return bool(re.search(r"-(PLANO|ANEXO)(-?\d+)?\.pdf$", nombre_pdf, re.IGNORECASE))
 
 
 def main() -> None:

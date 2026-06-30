@@ -15,10 +15,10 @@ OUTPUT_PATH = ROOT / "data" / "carga_drupal_preview.json"
 PDFS_DIR = ROOT / "pdfs" / "nuevos"
 
 # Tipos de adjuntos reconocidos (case-insensitive)
-# Soporta: -PLANO.pdf, -PLANO-01.pdf, -ANEXO.pdf, -ANEXO-02.pdf
+# Soporta: -PLANO.pdf, -PLANO1.pdf, -PLANO-01.pdf, -ANEXO.pdf, -ANEXO-02.pdf
 ADJUNTO_PATTERNS = [
-    re.compile(r"-PLANO(-\d+)?\.pdf$", re.IGNORECASE),
-    re.compile(r"-ANEXO(-\d+)?\.pdf$", re.IGNORECASE),
+    re.compile(r"-PLANO(-?\d+)?\.pdf$", re.IGNORECASE),
+    re.compile(r"-ANEXO(-?\d+)?\.pdf$", re.IGNORECASE),
 ]
 
 
@@ -101,8 +101,8 @@ def extraer_codigo_base(nombre_pdf: str) -> str:
     Si el nombre contiene '-PLANO' o '-ANEXO', se remueve esa parte también.
     """
     nombre = Path(nombre_pdf).stem  # sin .pdf
-    # Remover sufijo de tipo si existe: -PLANO, -PLANO-01, -ANEXO, -ANEXO-02, etc.
-    nombre = re.sub(r'-(PLANO|ANEXO)(-\d+)?$', '', nombre, flags=re.IGNORECASE)
+    # Remover sufijo de tipo si existe: -PLANO, -PLANO1, -PLANO-01, -ANEXO, -ANEXO-02, etc.
+    nombre = re.sub(r'-(PLANO|ANEXO)(-?\d+)?$', '', nombre, flags=re.IGNORECASE)
     # Remover el último guion + número (la página): -04, -01, -02
     nombre = re.sub(r'-\d+$', '', nombre)
     return nombre
