@@ -167,7 +167,11 @@ def remove_table_from_article(article: str) -> str:
         # "Autorización de ejecución de obras": corta ANTES de "conforme"
         # para que el resumen termine con el nombre del proyecto, sin specs técnicas.
         r"conforme\s+a\s+las?\s+especificaciones\s+t[ée]cnicas\s+del\s+referido\s+proyecto",
+        # "conforme al siguiente detalle" — versión estricta (con dos puntos)
         r"conforme\s+al\s+siguiente\s+detalle\s*:",
+        # "conforme al ... detalle" — versión laxa (sin dos puntos, por si pypdf
+        # fragmenta el texto con notas al pie o saltos de página en el medio)
+        r"conforme\s+al\s+siguiente\s+detalle",
         r"seg[uú]n\s+el\s+siguiente\s+detalle\s*:",
         r"de\s+acuerdo\s+al\s+siguiente\s+detalle\s*:",
         r"(?:al|el)\s+siguiente\s+detalle\s*:",
@@ -177,6 +181,17 @@ def remove_table_from_article(article: str) -> str:
         m = re.search(pattern, article, re.IGNORECASE)
         if m:
             return article[: m.start()].rstrip()
+
+    # --- Fase 1b: patrón compuesto "conforme al ... siguiente detalle" ---
+    # pypdf a veces fragmenta el texto intercalando notas al pie entre
+    # "conforme al" y "siguiente detalle". Buscamos "siguiente detalle" en
+    # el artículo, y si aparece, buscamos "conforme al" antes de esa posición
+    # y cortamos ahí (porque lo que sigue es una tabla).
+    m_detalle = re.search(r"siguiente\s+detalle", article, re.I)
+    if m_detalle:
+        m_conforme = re.search(r"conforme\s+al\s", article[:m_detalle.start()], re.I)
+        if m_conforme:
+            return article[:m_conforme.start()].rstrip()
 
     # --- Fase 2: marcadores estructurales de tabla ---
     # Si no hay frase introductoria, buscar patrones que solo aparecen en tablas:
@@ -190,6 +205,11 @@ def remove_table_from_article(article: str) -> str:
         r"Cuadro\s+N[°º]?\s*\d+",                   # "Cuadro N° 01", "Cuadro Nro 02"
         r"DATOS\s+DEL\s+ADMINISTRADO",               # tabla de datos en autorizaciones
         r"ESTE\s*\(\s*m\s*\)",                       # columna "Este (m)" en tablas de coordenadas
+        # Acreditación de disponibilidad hídrica (ADH)
+        r"DISTRIBUCI[ÓO]N\s+MENSUAL",               # "DISTRIBUCIÓN MENSUAL"
+        r"VOLUMEN\s+ACREDITADO\s*\(\s*m3?\s*\)",    # "VOLUMEN ACREDITADO (m3)"
+        r"CAUDAL\s+ECOL[ÓO]GICO",                   # "CAUDAL ECOLÓGICO" (tabla en ADH)
+        r"(?:Ene|Feb|Mar|Abr|May|Jun|Jul|Ago|Sep|Oct|Nov|Dic)\.[\s\d]+(?:Ene|Feb)",  # fila de meses con valores numéricos
     ]
     for pattern in table_markers:
         m = re.search(pattern, article, re.IGNORECASE)
@@ -285,12 +305,28 @@ def extract_articles(text: str, limit: int = 3) -> list[str]:
 def remove_authenticity_footers(text: str) -> str:
     # pypdf extrae en medio del texto la constancia de copia auténtica que aparece
     # como pie/encabezado de página. La limpiamos para que no ensucie los artículos.
-    return re.sub(
+    text = re.sub(
         r"Esta es una copia auténtica imprimible.*?ingresando la siguiente clave\s*:\s*[A-Z0-9]+",
         " ",
         text,
         flags=re.I | re.S,
     )
+    # Eliminar notas al pie numeradas que pypdf intercala en el flujo de texto.
+    # Estas notas empiezan con número (1-20), tienen contenido legal (Reglamento,
+    # Resolución, Ley, Decreto, etc.) y no son parte de los artículos resolutivos.
+    # Se detectan como párrafos que empiezan con número + espacio + mayúscula,
+    # seguidos de texto típico de referencias legales.
+    text = re.sub(
+        r"(?:^|\n)\s*\d{1,2}\s+"
+        r"(?:Previsto\s+en\s+el\s+Reglamento|Reglamento\s+de|Resoluci[óo]n\s+Jefatural|"
+        r"Ley\s+N[°º]|Decreto\s+Supremo\s+N[°º]|Resoluci[óo]n\s+Ministerial|"
+        r"Resoluci[óo]n\s+Directoral|Resoluci[óo]n\s+de\s+Consejo).*?"
+        r"(?=\n\s*(?:ART[ÍI]CULO|SE\s+RESUELVE|Reg[íi]strese|$))",
+        " ",
+        text,
+        flags=re.I | re.S,
+    )
+    return text
 
 
 def autosize_columns(ws) -> None:
