@@ -344,8 +344,15 @@ def write_workbook(rows: list[dict[str, str]]) -> None:
 
 
 def es_adjunto(nombre_pdf: str) -> bool:
-    """Determina si un archivo es un adjunto (plano o anexo) por su nombre."""
-    return bool(re.search(r"-(PLANO|ANEXO)\d*\.pdf$", nombre_pdf, re.IGNORECASE))
+    """Determina si un archivo es un adjunto (plano o anexo) por su nombre.
+
+    Soporta formatos:
+      - RD-XXXX-YYYY-PLANO.pdf          (plano simple)
+      - RD-XXXX-YYYY-PLANO-01.pdf       (plano con índice, ej. múltiples planos)
+      - RD-XXXX-YYYY-ANEXO.pdf
+      - RD-XXXX-YYYY-ANEXO-02.pdf
+    """
+    return bool(re.search(r"-(PLANO|ANEXO)(-\d+)?\.pdf$", nombre_pdf, re.IGNORECASE))
 
 
 def main() -> None:
