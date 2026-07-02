@@ -1,171 +1,46 @@
 [
   {
     "excel_row_number": "2",
-    "archivo_pdf": "59-RD-0172-2026-04.pdf",
-    "codigo_base": "59-RD-0172-2026",
-    "adjuntos": [
-      "59-RD-0172-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0172-2026-01-PLANO.pdf"
-    ],
+    "archivo_pdf": "64-RD-0179-2026-11.pdf",
+    "codigo_base": "64-RD-0179-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0172-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-06-22",
+      "titulo": "RD N° 0179-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-07-01",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "172",
+      "numero_resolucion": "179",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- OTORGAR autorización de uso temporal de un área de la faja marginal derecha del rio Madre de Dios para siembra de cultivos de 2.00 hectáreas (ha), a favor de la señora AGUIRRE MORALES, ERNESTINA identificada con DNI N° 08284905; dicha área se ubica en el sector Alta Cachuela, distrito y provincia de Tambopata, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0172-2026-04.pdf",
+      "resumen": "ARTÍCULO 1.- SANCIONAR al señor SANTIAGO JESUS MELENDEZ FLORES identificado con DNI N° 42708750, con una sanción administrativa de MULTA equivalente a diez coma cincuenta y nueve (10,59) UIT, por la infracción calificada como muy grave en materia de agua, por ocupar y desviar el cauce de la quebrada Virgen de la Candelaria producto del relleno con material de descarte producto de actividades de minería y/o lastre, sin autorización de la Autoridad Nacional del Agua.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0179-2026-11.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "3",
-    "archivo_pdf": "59-RD-0173-2026-04.pdf",
-    "codigo_base": "59-RD-0173-2026",
+    "archivo_pdf": "64-RD-0180-2026-05.pdf",
+    "codigo_base": "64-RD-0180-2026",
     "adjuntos": [
-      "59-RD-0173-2026-01-PLANO.pdf"
+      "64-RD-0180-2026-01-PLANO.pdf"
     ],
     "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0173-2026-01-PLANO.pdf"
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0180-2026-01-PLANO.pdf"
     ],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0173-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-06-22",
+      "titulo": "RD N° 0180-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-07-01",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "173",
+      "numero_resolucion": "180",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- OTORGAR autorización de uso temporal de un área de la faja marginal derecha del rio Las Piedras para siembra de cultivos de 2.62 hectáreas (ha), a favor del señor CUBA HUAMAN, RICHARD RODOLFO identificado con DNI N° 41159138; dicha área se ubica en el sector Puerto Lucerna, Distrito y Provincia de Tambopata, Departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0173-2026-04.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "4",
-    "archivo_pdf": "64-RD-0174-2026-03.pdf",
-    "codigo_base": "64-RD-0174-2026",
-    "adjuntos": [
-      "64-RD-0174-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0174-2026-01-PLANO.pdf"
-    ],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0174-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-06-22",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "174",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- OTORGAR autorización de uso temporal de un área de la bifurcación izquierda del rio Inambari para siembra de cultivos, en un área de 5.00 hectáreas (ha), a favor de la señora ZUÑIGA ESCOBAR, VILMA identificada con DNI N° 10449912; dicha área se ubica en el sector Ponal, distrito de Inambari, provincia de Tambopata, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0174-2026-03.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "5",
-    "archivo_pdf": "64-RD-0175-2026-02.pdf",
-    "codigo_base": "64-RD-0175-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0175-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-06-25",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "175",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- DECLARAR el ABANDONO del procedimiento administrativo iniciado por la MUNICIPALIDAD DISTRITAL DE SAN GABÁN con RUC N° 20195270938, sobre solicitud de Autorización de Ejecución de Obras en Fuentes Naturales de Agua para el proyecto denominado “Creación de Puente Carrozable en el Rio Pradocarpa del Distrito de San Gabán – Provincia de Carabaya – Departamento de Puno”, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0175-2026-02.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "6",
-    "archivo_pdf": "64-RD-0176-2026-03.pdf",
-    "codigo_base": "64-RD-0176-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0176-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-06-25",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "176",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- ACREDITAR la disponibilidad hídrica para el otorgamiento de derecho de uso de agua con fines de uso turístico a favor de la señora SEQUEIROS BERMUDEZ, MARÍA ZURLA identificada con DNI N° 23833529, para el desarrollo del proyecto denominado Balneario – Sequeiros sector Q´ellmapata – distrito de Marcapata, provincia de Quispicanchi, departamento de Cusco”, cuya acreditación hídrica anual es de 23 021.28 m 3, conforme al 1 Previsto en el Reglamento de Procedimientos Administrativos para el Otorgamiento de Derechos de Uso de Agua y Autorizaciones de Ejecución de Obras en Fuentes Naturales de Agua aprobado mediante la Resolución Jefatural N° 007-2015- ANA. 2 Resolución Jefatural N° 0357-2024-ANA que modificó el artículo 40 del Reglamento de Procedimientos Administrativos para el Otorgamiento de Derechos de Uso de Agua y de Autorización de Ejecución de Obras en Fuentes Naturales de Agua Artículo 40.- Publicaciones 40.1 La ALA, dentro de los dos (02) días hábiles, publica en el portal institucional de la ANA, por tres (3) días hábiles, el aviso oficial para la ADH y coloca en su local institucional el aviso oficial, por tres (3) días hábiles consecutivos, según Formato Anexo N° 1. 40.2 La ALA solicita mediante comunicación escrita a la municipalidad distrital, a las organizaciones comunales y organizaciones de usuarios la colocación del aviso oficial en sus locales institucionales, la cual es entregada por el administrado. […] siguiente detalle.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0176-2026-03.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "7",
-    "archivo_pdf": "64-RD-0177-2026-06.pdf",
-    "codigo_base": "64-RD-0177-2026",
-    "adjuntos": [
-      "64-RD-0177-2026-01-PLANO-01.pdf",
-      "64-RD-0177-2026-01-PLANO-02.pdf",
-      "64-RD-0177-2026-01-PLANO-03.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0177-2026-01-PLANO-01.pdf",
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0177-2026-01-PLANO-02.pdf",
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0177-2026-01-PLANO-03.pdf"
-    ],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0177-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-06-25",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "177",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTICULO 2.- APROBAR los estudios de Modelamiento Hidráulico que conforma el “Estudio de Delimitación de la Faja Marginal en un tramo de 6.90 km en ambas márgenes de la Quebrada Ananea, ubicado en el distrito de Quiaca, provincia de Sandia, departamento de Puno”, elaborado por la empresa CORI PUNO S.R.L. con RUC N° 20406339361, conforme a la metodología establecida en artículo 9 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0177-2026-06.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "8",
-    "archivo_pdf": "64-RD-0178-2026-04.pdf",
-    "codigo_base": "64-RD-0178-2026",
-    "adjuntos": [
-      "64-RD-0178-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0178-2026-01-PLANO.pdf"
-    ],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0178-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-06-25",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "178",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- OTORGAR Licencia de Uso de Agua subterránea con fines de uso minero en el marco del procedimiento establecido en la Resolución Jefatural N° 035-2018-ANA, como parte del proceso de formalización minera integral (actividades de pequeña minería y minería artesanal) regulado por los Decretos Legislativos N° 1293 y 1336, a favor de la señora JOVITA GUTIERREZ SALAS con RUC N° 10800659171, para el proyecto minero SALVACION I ubicado dentro del derecho minero SALVACION I (código 070010205), ubicado en la localidad de Malinowsky, distrito de Inambari, provincia de Tambopata, departamento de Madre de Dios, para aprovechar un volumen anual de hasta 44 712,00 m3.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0178-2026-04.pdf",
+      "resumen": "ARTICULO 1.- APROBAR los estudios de Huella Máxima que conforma el “Estudio de Delimitación de la Faja Marginal en un área de 10.23 ha de la Laguna Ananea, distrito de Quiaca, provincia de Sandia, departamento de Puno”, elaborado por la empresa CORI PUNO S.R.L. con RUC N° 20406339361, conforme a la metodología establecida en artículo 10 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0180-2026-05.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
