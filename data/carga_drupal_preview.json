@@ -1,46 +1,63 @@
 [
   {
     "excel_row_number": "2",
-    "archivo_pdf": "64-RD-0179-2026-11.pdf",
-    "codigo_base": "64-RD-0179-2026",
+    "archivo_pdf": "64-RD-0185-2026-08.pdf",
+    "codigo_base": "64-RD-0185-2026",
     "adjuntos": [],
     "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0179-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-07-01",
+      "titulo": "RD N° 0185-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-07-08",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "179",
+      "numero_resolucion": "185",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR al señor SANTIAGO JESUS MELENDEZ FLORES identificado con DNI N° 42708750, con una sanción administrativa de MULTA equivalente a diez coma cincuenta y nueve (10,59) UIT, por la infracción calificada como muy grave en materia de agua, por ocupar y desviar el cauce de la quebrada Virgen de la Candelaria producto del relleno con material de descarte producto de actividades de minería y/o lastre, sin autorización de la Autoridad Nacional del Agua.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0179-2026-11.pdf",
+      "resumen": "ARTÍCULO 1.- ARCHIVAR el procedimiento administrativo sancionador iniciado contra la CORPORACIÓN INGENIEROS LAYAZU S.A.C., identificada con RUC N° 20600530951, por los fundamentos expresados en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0185-2026-08.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "3",
-    "archivo_pdf": "64-RD-0180-2026-05.pdf",
-    "codigo_base": "64-RD-0180-2026",
-    "adjuntos": [
-      "64-RD-0180-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0180-2026-01-PLANO.pdf"
-    ],
+    "archivo_pdf": "64-RD-0186-2026-05.pdf",
+    "codigo_base": "64-RD-0186-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0180-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-07-01",
+      "titulo": "RD N° 0186-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-07-09",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "180",
+      "numero_resolucion": "186",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTICULO 1.- APROBAR los estudios de Huella Máxima que conforma el “Estudio de Delimitación de la Faja Marginal en un área de 10.23 ha de la Laguna Ananea, distrito de Quiaca, provincia de Sandia, departamento de Puno”, elaborado por la empresa CORI PUNO S.R.L. con RUC N° 20406339361, conforme a la metodología establecida en artículo 10 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0180-2026-05.pdf",
+      "resumen": "ARTÍCULO 1.- SANCIONAR al señor FRANKLIN ALFEREZ QUEA identificado con DNI N° 45513421, con una multa de cero coma noventa y uno (0,91) UIT, por la infracción calificada como leve en materia de agua, por utilizar el agua superficial de la quebrada Osjo Cachi con fines de uso minero, sin el correspondiente derecho de uso otorgado por la Autoridad Nacional del Agua, ubicada en el distrito de Ollachea, provincia de Carabaya, departamento de Puno.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0186-2026-05.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "4",
+    "archivo_pdf": "59-RD-0187-2026-05.pdf",
+    "codigo_base": "59-RD-0187-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0187-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-07-09",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "187",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- SANCIONAR a la señora PAULINA CRUZ MAMANI identificada con DNI N° 64035724, con una AMONESTACIÓN ESCRITA, por la infracción calificada como muy leve en materia de agua, por ocupar la ribera y faja marginal derecha del rio Madre de Dios sin la autorización correspondiente, ubicada en el sector Salvación, distrito y provincia de Manu, departamento de Madre de Dios.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0187-2026-05.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
