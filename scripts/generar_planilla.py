@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.worksheet.table import Table, TableStyleInfo
 from pypdf import PdfReader
@@ -392,6 +392,33 @@ def es_adjunto(nombre_pdf: str) -> bool:
     return bool(re.search(r"-(PLANO|ANEXO)(-?\d+)?\.pdf$", nombre_pdf, re.IGNORECASE))
 
 
+def read_existing_rows() -> dict[str, dict[str, str]]:
+    """Lee las filas ya existentes en el Excel, indexadas por archivo_pdf.
+
+    Si el Excel no existe o está vacío, retorna un dict vacío.
+    Esto permite regenerar la planilla sin perder las ediciones manuales
+    que el usuario haya hecho (articulo_elegido, resumen_portal, etc.).
+    """
+    if not OUTPUT_XLSX.exists():
+        return {}
+
+    wb = load_workbook(OUTPUT_XLSX, data_only=True)
+    if "pendientes" not in wb.sheetnames:
+        return {}
+
+    ws = wb["pendientes"]
+    headers = [cell.value for cell in ws[1]]
+    existing: dict[str, dict[str, str]] = {}
+
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        data = {header: str(value or "") for header, value in zip(headers, row)}
+        archivo = data.get("archivo_pdf", "").strip()
+        if archivo:
+            existing[archivo] = data
+
+    return existing
+
+
 def main() -> None:
     pdfs = sorted(PDF_DIR.glob("*.pdf"))
     if not pdfs:
@@ -406,13 +433,31 @@ def main() -> None:
     if adjuntos:
         print(f"Adjuntos detectados (no se procesan como RDs): {', '.join(adjuntos)}")
 
-    rows = [extract_resolution_data(pdf) for pdf in pdfs_principales]
+    # Leer filas existentes para preservar ediciones manuales
+    # (articulo_elegido, resumen_portal, etc.)
+    existing = read_existing_rows()
+
+    rows: list[dict[str, str]] = []
+    preservadas = 0
+    nuevas = 0
+    for pdf in pdfs_principales:
+        if pdf.name in existing:
+            rows.append(existing[pdf.name])
+            preservadas += 1
+        else:
+            rows.append(extract_resolution_data(pdf))
+            nuevas += 1
+
     # Ordenar por número de resolución (ascendente) para conservar el orden natural
     rows.sort(key=lambda r: int(r["numero_resolucion"]) if r["numero_resolucion"].isdigit() else 9999)
     write_workbook(rows)
 
     print(f"Planilla generada: {OUTPUT_XLSX}")
     print(f"PDFs procesados: {len(rows)}")
+    if preservadas > 0:
+        print(f"  Filas preservadas (con ediciones manuales): {preservadas}")
+    if nuevas > 0:
+        print(f"  Nuevas extracciones: {nuevas}")
 
 
 if __name__ == "__main__":
