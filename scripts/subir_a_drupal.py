@@ -585,6 +585,12 @@ class DrupalUploadBot:
             # 12. Subir adjuntos (planos, anexos) si existen
             adjuntos_rutas = payload.get("adjuntos_rutas", [])
             adjuntos_nombres = payload.get("adjuntos", [])
+            # Si hay 2+ adjuntos, invertir el orden para que Drupal
+            # muestre el plano más alto primero (PLANO-08 → PLANO-01)
+            if len(adjuntos_rutas) >= 2:
+                adjuntos_rutas = list(reversed(adjuntos_rutas))
+                adjuntos_nombres = list(reversed(adjuntos_nombres))
+                self.log(f"📎 Orden invertido: {len(adjuntos_rutas)} planos (mayor → menor)")
             if adjuntos_rutas:
                 self.log(f"📎 Subiendo {len(adjuntos_rutas)} adjunto(s)...")
                 for idx, (adj_ruta, adj_nombre) in enumerate(
