@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from datetime import datetime
@@ -210,7 +211,29 @@ def build_payload(row: dict[str, str], field_map: dict, adjuntos_map: dict[str, 
     }
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Convierte Excel revisado a JSON de carga Drupal."
+    )
+    parser.add_argument(
+        "--exclude",
+        nargs="*",
+        default=[],
+        help="Nombres de PDF a excluir del JSON (ej: 64-RD-0200-2026-03.pdf). "
+        "Usar en vez de PowerShell para preservar UTF-8.",
+    )
+    parser.add_argument(
+        "--only",
+        nargs="*",
+        default=[],
+        help="Solo incluir estos nombres de PDF en el JSON.",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
+    args = parse_args()
+
     if not EXCEL_PATH.exists():
         raise SystemExit(f"No existe el Excel: {EXCEL_PATH}")
     if not FIELD_MAP_PATH.exists():
@@ -218,6 +241,14 @@ def main() -> None:
 
     field_map = json.loads(FIELD_MAP_PATH.read_text(encoding="utf-8"))
     rows = read_rows()
+
+    # Filtrar rows por --only / --exclude (si se pasaron)
+    if args.only:
+        only_set = set(args.only)
+        rows = [r for r in rows if r.get("archivo_pdf") in only_set]
+    if args.exclude:
+        exclude_set = set(args.exclude)
+        rows = [r for r in rows if r.get("archivo_pdf") not in exclude_set]
 
     # Detectar adjuntos (planos y anexos) en pdfs/nuevos/
     adjuntos_map = detectar_adjuntos(rows)
@@ -235,6 +266,10 @@ def main() -> None:
         for codigo, adj in adjuntos_map.items():
             if adj:
                 print(f"  {codigo}: {', '.join(adj)}")
+    if args.exclude:
+        print(f"Excluidos: {', '.join(args.exclude)}")
+    if args.only:
+        print(f"Solo incluidos: {', '.join(args.only)}")
 
 
 if __name__ == "__main__":

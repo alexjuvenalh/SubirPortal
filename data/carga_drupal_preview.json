@@ -1,65 +1,52 @@
 [
-  {
-    "excel_row_number": "2",
-    "archivo_pdf": "64-RD-0185-2026-08.pdf",
-    "codigo_base": "64-RD-0185-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0185-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-07-08",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "185",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- ARCHIVAR el procedimiento administrativo sancionador iniciado contra la CORPORACIÓN INGENIEROS LAYAZU S.A.C., identificada con RUC N° 20600530951, por los fundamentos expresados en la parte considerativa de la presente resolución.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0185-2026-08.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
+    {
+        "excel_row_number":  "5",
+        "archivo_pdf":  "64-RD-0203-2026-04.pdf",
+        "codigo_base":  "64-RD-0203-2026",
+        "adjuntos":  [
+
+                     ],
+        "adjuntos_rutas":  [
+
+                           ],
+        "url":  "https://www.ana.gob.pe/node/add/normatividad",
+        "fields":  {
+                       "titulo":  "RD NÂ° 0203-2026-ANA-AAA.MDD",
+                       "fecha_rd":  "2026-07-24",
+                       "hora_rd":  "08:00:00",
+                       "numero_resolucion":  "203",
+                       "clasificacion_nivel_1":  "115",
+                       "clasificacion_nivel_2":  "129",
+                       "clasificacion_hidden":  "129",
+                       "resumen":  "ARTÃCULO 1.- DECLARAR la EXTINCIÃ“N del Permiso de uso de agua atmosfÃ©rico (lluvia), otorgado mediante ResoluciÃ³n Administrativa NÂ° 0090-2019-ANA-AAA.MDD- ALA.TI de fecha 22.11.2019, a favor del Sr. Alipio Arnolio Poma Checalla, identificado con DNI NÂ° 04811416, por la causal prevista en el numeral 1 del artÃ­culo 71 de la Ley de Recursos HÃ­dricos: Muerte del titular del derecho.",
+                       "ruta_pdf":  "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0203-2026-04.pdf",
+                       "ambito_administrativo_nivel_1":  "17",
+                       "ambito_administrativo_nivel_2":  "_none"
+                   }
+    },
+    {
+        "excel_row_number":  "6",
+        "archivo_pdf":  "64-RD-0204-2026-03.pdf",
+        "codigo_base":  "64-RD-0204-2026",
+        "adjuntos":  [
+
+                     ],
+        "adjuntos_rutas":  [
+
+                           ],
+        "url":  "https://www.ana.gob.pe/node/add/normatividad",
+        "fields":  {
+                       "titulo":  "RD NÂ° 0204-2026-ANA-AAA.MDD",
+                       "fecha_rd":  "2026-07-24",
+                       "hora_rd":  "08:00:00",
+                       "numero_resolucion":  "204",
+                       "clasificacion_nivel_1":  "115",
+                       "clasificacion_nivel_2":  "129",
+                       "clasificacion_hidden":  "129",
+                       "resumen":  "ARTÃCULO 2Â°.- OTORGAR, licencia de uso de agua Superficial por un volumen hasta 25021.00 mÂ³/aÃ±o, para uso AgrÃ­cola, a favor de \"ComitÃ© de Usuarios de Agua Oqheyani Pampa\".",
+                       "ruta_pdf":  "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0204-2026-03.pdf",
+                       "ambito_administrativo_nivel_1":  "17",
+                       "ambito_administrativo_nivel_2":  "_none"
+                   }
     }
-  },
-  {
-    "excel_row_number": "3",
-    "archivo_pdf": "64-RD-0186-2026-05.pdf",
-    "codigo_base": "64-RD-0186-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0186-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-07-09",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "186",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR al señor FRANKLIN ALFEREZ QUEA identificado con DNI N° 45513421, con una multa de cero coma noventa y uno (0,91) UIT, por la infracción calificada como leve en materia de agua, por utilizar el agua superficial de la quebrada Osjo Cachi con fines de uso minero, sin el correspondiente derecho de uso otorgado por la Autoridad Nacional del Agua, ubicada en el distrito de Ollachea, provincia de Carabaya, departamento de Puno.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0186-2026-05.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "4",
-    "archivo_pdf": "59-RD-0187-2026-05.pdf",
-    "codigo_base": "59-RD-0187-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0187-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-07-09",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "187",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR a la señora PAULINA CRUZ MAMANI identificada con DNI N° 64035724, con una AMONESTACIÓN ESCRITA, por la infracción calificada como muy leve en materia de agua, por ocupar la ribera y faja marginal derecha del rio Madre de Dios sin la autorización correspondiente, ubicada en el sector Salvación, distrito y provincia de Manu, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0187-2026-05.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  }
 ]
