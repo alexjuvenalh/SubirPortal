@@ -17,6 +17,7 @@ import asyncio
 import json
 import sys
 import io
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 
@@ -36,7 +37,7 @@ SCREENSHOTS_DIR = ROOT / "logs" / "screenshots"
 
 # Tiempos de espera (ms) — Drupal con AJAX puede ser lento
 AJAX_TIMEOUT = 15_000
-NAV_TIMEOUT = 60_000  # 60s: el portal ANA a veces tarda, y networkidle es frágil
+NAV_TIMEOUT = 120_000  # 120s: el portal ANA a veces tarda más de 60s en servir la página completa
 ELEMENT_TIMEOUT = 10_000
 
 # Selectores clave verificados en dry-run
@@ -72,6 +73,8 @@ class DrupalUploadBot:
         LOGS_DIR.mkdir(parents=True, exist_ok=True)
         SCREENSHOTS_DIR.mkdir(parents=True, exist_ok=True)
         self._log_file = LOGS_DIR / f"carga_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        # Flag: se activa cuando el SHS se resuelve por inyección manual
+        self._shs_injected = False
 
     def log(self, msg: str) -> None:
         timestamp = datetime.now().strftime("%H:%M:%S")
@@ -164,48 +167,160 @@ class DrupalUploadBot:
     async def fill_cascading_selects(self, page: Page, nivel1_sel: str,
                                       nivel1_val: str, nivel2_sel: str,
                                       nivel2_val: str) -> None:
-        """Maneja selects jerárquicos con recarga AJAX (clasificación y ámbito)."""
+        """Maneja selects jerárquicos SHS con recarga AJAX (clasificación y ámbito).
+
+        Drupal SHS (9.5.8) dejó de renderizar el <select> del nivel 2 cuando el
+        browser es controlado por Playwright: el request AJAX se dispara y el
+        servidor responde 200 con los children, pero el widget no crea el nivel 2
+        en el DOM. Por eso, si la opción no aparece en 5s, se usa inyección manual:
+        se descargan los children desde la API SHS y se crea el <select> a mano.
+        """
         await page.select_option(nivel1_sel, nivel1_val)
         self.log(f"  ✅ Select nivel 1: {nivel1_val}")
 
-        # Drupal usa AJAX para recargar el segundo select.
-        # La opción aparece en el DOM como hidden hasta que termina la recarga.
-        # Esperamos con state="attached" (no "visible") porque la opción puede
-        # estar presente pero hidden durante la transición AJAX.
-        await asyncio.sleep(1)  # Pequeña pausa para que Drupal dispare el AJAX
+        # Si no hay nivel 2 requerido (None/_none), no hacer nada más
+        if not nivel2_val or nivel2_val in ("_none", "None"):
+            self.log(f"  ✅ Nivel 2 no requerido (valor '{nivel2_val}')")
+            return
 
-        # Esperar a que la opción esté attached en el DOM
+        # Pequeña pausa para que Drupal dispare el AJAX
+        await asyncio.sleep(1)
+
+        # Intento normal: esperar a que la opción esté attached en el DOM
         option_selector = f"{nivel2_sel} option[value='{nivel2_val}']"
         try:
             await page.wait_for_selector(
                 option_selector,
                 state="attached",
-                timeout=AJAX_TIMEOUT,
+                timeout=5_000,
             )
+            # Una vez que la opción existe, seleccionarla
+            await page.select_option(nivel2_sel, nivel2_val)
+            self.log(f"  ✅ Select nivel 2 (SHS normal): {nivel2_val}")
+            return
         except PlaywrightTimeout:
-            self.log(f"  ❌ Timeout esperando '{nivel2_val}' en {nivel2_sel}")
-            await self.screenshot(page, f"error_cascading_{nivel2_val}")
-            raise
+            self.log(f"  ⚠️  SHS no renderizó nivel 2, usando inyección manual...")
 
-        # Una vez que la opción existe, verificar que el select esté habilitado
-        await page.wait_for_selector(
-            nivel2_sel,
-            state="attached",
-            timeout=5_000,
+        # Fallback: inyección manual del select nivel 2
+        ok = await self._inject_shs_level2(
+            page, nivel1_sel, nivel1_val, nivel2_sel, nivel2_val,
         )
+        if not ok:
+            await self.screenshot(page, f"error_cascading_{nivel2_val}")
+            raise Exception(
+                f"Inyección SHS falló para nivel 2 (tid={nivel2_val})"
+            )
+        self.log(f"  ✅ Select nivel 2 (inyectado): {nivel2_val}")
 
-        # Intentar seleccionar (si falla por hidden, reintentar tras breve espera)
-        for attempt in range(5):
-            try:
-                await page.select_option(nivel2_sel, nivel2_val)
-                self.log(f"  ✅ Select nivel 2: {nivel2_val}")
-                return
-            except Exception:
-                if attempt < 4:
-                    await asyncio.sleep(1)
-                    self.log(f"  ⏳ Reintentando select nivel 2 (attempt {attempt + 2}/5)...")
-                else:
-                    raise
+    async def _inject_shs_level2(self, page: Page, nivel1_sel: str,
+                                 nivel1_val: str, nivel2_sel: str,
+                                 nivel2_val: str) -> bool:
+        """Crea manualmente el <select> del nivel 2 cuando el SHS no lo renderiza.
+
+        El request AJAX de SHS se dispara pero el widget no crea el <select>
+        del nivel 2. Para resolverlo: (1) leemos del DOM la config SHS del campo,
+        (2) descargamos los children desde la API SHS con urllib (mismo origen,
+        endpoint público), (3) inyectamos el <select> con la opción correcta y
+        seteamos el hidden input con el path completo (padre,hijo) tal como lo
+        hace el SHS cuando funciona.
+        """
+        self._shs_injected = True
+
+        # 1. Leer config SHS del campo desde el DOM (síncrono, sin async en JS)
+        info = await page.evaluate("""(args) => {
+            const nivel2Id = args.nivel2Id;
+            const hiddenId = nivel2Id.replace('-shs-0-1', '');
+            const hiddenInput = document.getElementById(hiddenId);
+            if (!hiddenInput) {
+                return {ok: false, error: 'hidden input no encontrado: ' + hiddenId};
+            }
+            const shsSelector = hiddenInput.getAttribute('data-shs-selector');
+            const cfg = ((window.drupalSettings || {}).shs || {})[shsSelector];
+            if (!cfg || !cfg.baseUrl || !cfg.bundle) {
+                return {ok: false, error: 'settings SHS no encontrados: ' + shsSelector};
+            }
+            const wrapper = document.getElementById(hiddenId + '-wrapper');
+            const container = wrapper
+                ? wrapper.querySelector('[data-shs-level="1"]')
+                : null;
+            return {
+                ok: true,
+                hiddenId: hiddenId,
+                shsSelector: shsSelector,
+                baseUrl: cfg.baseUrl,
+                bundle: cfg.bundle,
+                containerExists: !!container,
+            };
+        }""", {"nivel2Id": nivel2_sel.lstrip("#")})
+
+        if not info.get("ok"):
+            self.log(f"  ❌ Inyección SHS falló: {info.get('error')}")
+            return False
+
+        # 2. Descargar children desde la API SHS (urllib, endpoint público)
+        api_url = (f"https://www.ana.gob.pe/{info['baseUrl']}/"
+                   f"{info['shsSelector']}/{info['bundle']}/{nivel1_val}")
+        try:
+            req = urllib.request.Request(api_url, headers={
+                "User-Agent": "Mozilla/5.0",
+                "Accept": "application/json",
+            })
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                children = json.loads(resp.read().decode("utf-8"))
+        except Exception as e:
+            self.log(f"  ❌ Inyección SHS falló descargando children: {e}")
+            return False
+
+        child = next(
+            (c for c in children if str(c.get("tid")) == str(nivel2_val)),
+            None,
+        )
+        if not child:
+            self.log(f"  ❌ Inyección SHS falló: tid {nivel2_val} no está entre "
+                     f"children de {nivel1_val}")
+            return False
+        child_name = child.get("name", str(nivel2_val))
+
+        # 3. Inyectar el <select> y setear el hidden input
+        inject = await page.evaluate("""(args) => {
+            const {hiddenId, nivel2Id, childTid, childName, parentTid} = args;
+            const wrapper = document.getElementById(hiddenId + '-wrapper');
+            if (!wrapper) return {ok: false, error: 'wrapper no encontrado'};
+            const container = wrapper.querySelector('[data-shs-level="1"]');
+            if (!container) return {ok: false, error: 'container nivel 2 no encontrado'};
+
+            container.innerHTML = '';
+            const sel = document.createElement('select');
+            sel.id = nivel2Id;
+            sel.className = 'shs-select form-select form-element form-element--type-select';
+            const opt = document.createElement('option');
+            opt.value = childTid;
+            opt.textContent = childName;
+            sel.appendChild(opt);
+            container.appendChild(sel);
+            sel.value = childTid;
+
+            const hiddenInput = document.getElementById(hiddenId);
+            // El hidden input de SHS guarda SOLO el tid final seleccionado
+            // (ver AppView.updateElementValue del módulo SHS). El path
+            // 'padre,hijo' hace que Drupal rechace el submit.
+            hiddenInput.value = childTid;
+            hiddenInput.dispatchEvent(new Event('change', {bubbles: true}));
+            sel.dispatchEvent(new Event('change', {bubbles: true}));
+            return {ok: true};
+        }""", {
+            "hiddenId": info["hiddenId"],
+            "nivel2Id": nivel2_sel.lstrip("#"),
+            "childTid": str(child["tid"]),
+            "childName": child_name,
+            "parentTid": str(nivel1_val),
+        })
+
+        if inject.get("ok"):
+            self.log(f"  🔧 Nivel 2 inyectado: '{child_name}' (tid={child['tid']})")
+            return True
+        self.log(f"  ❌ Inyección SHS falló: {inject.get('error')}")
+        return False
 
     async def upload_pdf(self, page: Page, pdf_path: str,
                          input_selector: str = "#edit-field-file-0-upload",
@@ -452,6 +567,28 @@ class DrupalUploadBot:
                     await self.screenshot(page, "error_drupal")
                     return False
 
+            # Red de seguridad SHS: si inyectamos el nivel 2 manualmente y el
+            # form no avanzó, esperar que el usuario corrija Clasificación/Ámbito
+            # en la ventana del browser y presione Guardar de nuevo (3 min máx).
+            if self._shs_injected:
+                self.log("\n  ╔══════════════════════════════════════════╗")
+                self.log("  ║  RED DE SEGURIDAD SHS                    ║")
+                self.log("  ║  El nivel 2 se inyectó manualmente.      ║")
+                self.log("  ║  Si Clasificación/Ámbito están vacíos,   ║")
+                self.log("  ║  corregilos en la ventana del browser    ║")
+                self.log("  ║  y presioná Guardar. El bot espera.      ║")
+                self.log("  ╚══════════════════════════════════════════╝")
+                for i in range(60):  # 60 * 3s = 3 minutos
+                    await asyncio.sleep(3)
+                    msg = await page.query_selector(SELECTORS["mensaje_ok"])
+                    if msg:
+                        self.log("  🎉 ¡RD publicada exitosamente (corrección manual)!")
+                        return True
+                    if i % 10 == 9:
+                        self.log(f"  ⏳ Esperando corrección manual... ({i*3}s)")
+                self.log("  ❌ Timeout red de seguridad. RD quedó pendiente.")
+                return False
+
             # Si no hay mensaje, puede haber sido exitoso de todas formas
             self.log("  ⚠️  Sin confirmación explícita, verificando título de página...")
             await self.screenshot(page, "post_guardar_sin_mensaje")
@@ -461,6 +598,7 @@ class DrupalUploadBot:
         """Procesa una sola RD: llena el formulario, sube el PDF y guarda."""
         fields = payload["fields"]
         pdf_name = payload["archivo_pdf"]
+        self._shs_injected = False
         self.log(f"\n{'='*60}")
         self.log(f"📄 RD {index + 1}/{self.total}: {pdf_name}")
         self.log(f"   Título: {fields['titulo']}")
@@ -469,10 +607,11 @@ class DrupalUploadBot:
         try:
             # 1. Navegar al formulario de creación
             self.log("🌐 Navegando al formulario...")
-            await page.goto(payload["url"], wait_until="load",
+            await page.goto(payload["url"], wait_until="domcontentloaded",
                           timeout=NAV_TIMEOUT)
-            # Pequeña pausa para que Drupal termine redirects JS (login -> form)
-            await asyncio.sleep(2)
+            # Pausa para que Drupal termine redirects JS (login -> form) y
+            # cargue los assets críticos del SHS
+            await asyncio.sleep(5)
 
             # 2. Verificar autenticación
             if not await self.ensure_logged_in(page):
@@ -540,8 +679,9 @@ class DrupalUploadBot:
                     if upload_attempt == 0:
                         self.log("  🔄 Refrescando formulario para reintentar...")
                         await page.goto(payload["url"],
-                                      wait_until="load",
+                                      wait_until="domcontentloaded",
                                       timeout=NAV_TIMEOUT)
+                        await asyncio.sleep(5)
                         await self.ensure_logged_in(page)
                         # Re-llenar campos que se perdieron con el refresh
                         await self.fill_text_field(page, SELECTORS["titulo"],
