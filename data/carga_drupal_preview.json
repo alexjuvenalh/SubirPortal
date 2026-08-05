@@ -1,52 +1,65 @@
 [
-    {
-        "excel_row_number":  "5",
-        "archivo_pdf":  "64-RD-0203-2026-04.pdf",
-        "codigo_base":  "64-RD-0203-2026",
-        "adjuntos":  [
-
-                     ],
-        "adjuntos_rutas":  [
-
-                           ],
-        "url":  "https://www.ana.gob.pe/node/add/normatividad",
-        "fields":  {
-                       "titulo":  "RD NÂ° 0203-2026-ANA-AAA.MDD",
-                       "fecha_rd":  "2026-07-24",
-                       "hora_rd":  "08:00:00",
-                       "numero_resolucion":  "203",
-                       "clasificacion_nivel_1":  "115",
-                       "clasificacion_nivel_2":  "129",
-                       "clasificacion_hidden":  "129",
-                       "resumen":  "ARTÃCULO 1.- DECLARAR la EXTINCIÃ“N del Permiso de uso de agua atmosfÃ©rico (lluvia), otorgado mediante ResoluciÃ³n Administrativa NÂ° 0090-2019-ANA-AAA.MDD- ALA.TI de fecha 22.11.2019, a favor del Sr. Alipio Arnolio Poma Checalla, identificado con DNI NÂ° 04811416, por la causal prevista en el numeral 1 del artÃ­culo 71 de la Ley de Recursos HÃ­dricos: Muerte del titular del derecho.",
-                       "ruta_pdf":  "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0203-2026-04.pdf",
-                       "ambito_administrativo_nivel_1":  "17",
-                       "ambito_administrativo_nivel_2":  "_none"
-                   }
-    },
-    {
-        "excel_row_number":  "6",
-        "archivo_pdf":  "64-RD-0204-2026-03.pdf",
-        "codigo_base":  "64-RD-0204-2026",
-        "adjuntos":  [
-
-                     ],
-        "adjuntos_rutas":  [
-
-                           ],
-        "url":  "https://www.ana.gob.pe/node/add/normatividad",
-        "fields":  {
-                       "titulo":  "RD NÂ° 0204-2026-ANA-AAA.MDD",
-                       "fecha_rd":  "2026-07-24",
-                       "hora_rd":  "08:00:00",
-                       "numero_resolucion":  "204",
-                       "clasificacion_nivel_1":  "115",
-                       "clasificacion_nivel_2":  "129",
-                       "clasificacion_hidden":  "129",
-                       "resumen":  "ARTÃCULO 2Â°.- OTORGAR, licencia de uso de agua Superficial por un volumen hasta 25021.00 mÂ³/aÃ±o, para uso AgrÃ­cola, a favor de \"ComitÃ© de Usuarios de Agua Oqheyani Pampa\".",
-                       "ruta_pdf":  "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0204-2026-03.pdf",
-                       "ambito_administrativo_nivel_1":  "17",
-                       "ambito_administrativo_nivel_2":  "_none"
-                   }
+  {
+    "excel_row_number": "2",
+    "archivo_pdf": "64-RD-0213-2026-04.pdf",
+    "codigo_base": "64-RD-0213-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0213-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-07-31",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "213",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "PRIMERO. - AUTORIZAR al señor EMILIANO TAMAYO BERNALES, identificado con DNI N° 23961423, la ejecución de obras mínimas para trabajos de limpieza y descolmatación en el cauce de la quebrada Jayave, ubicado en la localidad de Virgen de la Candelaria, distrito de Inambari, provincia de Tambopata, región de Madre de Dios.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0213-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
     }
+  },
+  {
+    "excel_row_number": "3",
+    "archivo_pdf": "64-RD-0214-2026-16.pdf",
+    "codigo_base": "64-RD-0214-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0214-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-08-04",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "214",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 2.- SANCIONAR a la señora MARCELA CCAMA LIPA identificada con DNI N° 80588309 con una MULTA equivalente a doce coma cuarenta y seis (12,46) UIT, por la infracción calificada como muy grave en materia de agua, por efectuar vertimiento de aguas residuales en la quebrada Violeta, ubicada en el sector Violeta, distrito de Huepetuhe, provincia de Manu, departamento de Madre de Dios sin autorización de la Autoridad Nacional del Agua.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0214-2026-16.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "4",
+    "archivo_pdf": "59-RD-0215-2026-12.pdf",
+    "codigo_base": "59-RD-0215-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0215-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-08-04",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "215",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- SANCIONAR a la URBANIZACIÓN POPULAR DE INTERÉS SOCIAL (UPIS) ISLA DE BRISAS, con una MULTA equivalente a dos coma cero uno (2,01) UIT, por la infracción calificada como grave en materia de agua, por ocupar del humedal Campo Verde sin la autorización correspondiente, ubicada en el sector El Triunfo, distrito de Las Piedras, provincia de Tambopata, departamento de Madre de Dios.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0215-2026-12.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  }
 ]
