@@ -1,63 +1,121 @@
 [
   {
-    "excel_row_number": "2",
-    "archivo_pdf": "64-RD-0216-2026-03.pdf",
-    "codigo_base": "64-RD-0216-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
+    "excel_row_number": "15",
+    "archivo_pdf": "64-RD-0232-2026-03.pdf",
+    "codigo_base": "64-RD-0232-2026",
+    "adjuntos": [
+      "64-RD-0232-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0232-2026-01-PLANO.pdf"
+    ],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0216-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-05",
+      "titulo": "RD N° 0232-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-08-24",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "216",
+      "numero_resolucion": "232",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 2.- ACREDITAR la disponibilidad hídrica para el otorgamiento de derecho de uso de agua con fines de uso minero a favor de la ASOCIACIÓN DE MINEROS ARTESANALES ALTO MIRADOR con RUC N° 20542668394, para el proyecto denominado “Proyecto Minero Cumbre” ubicado en el sector Sisira, distrito de Alto Inambari, provincia de Sandia, departamento de Puno, cuya acreditación hídrica es de 10 805.00 m3.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0216-2026-03.pdf",
+      "resumen": "ARTÍCULO 1.- OTORGAR autorización de uso temporal de un área de la bifurcación izquierda del rio Inambari para siembra de cultivos, en un área de 5.00 hectáreas (ha), a favor del señor CONDORI CHAVEZ, LUCIANO identificado con DNI N° 42874557; dicha área se ubica en el sector Ponal, distrito de Inambari, provincia de Tambopata, departamento de Madre de Dios.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0232-2026-03.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
-    "excel_row_number": "3",
-    "archivo_pdf": "59-RD-0217-2026-12.pdf",
-    "codigo_base": "59-RD-0217-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
+    "excel_row_number": "16",
+    "archivo_pdf": "64-RD-0233-2026-03.pdf",
+    "codigo_base": "64-RD-0233-2026",
+    "adjuntos": [
+      "64-RD-0233-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0233-2026-01-PLANO.pdf"
+    ],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0217-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-07",
+      "titulo": "RD N° 0233-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-08-24",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "217",
+      "numero_resolucion": "233",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR a la señora MONICA AROSQUIPA CALLAÑAUPA identificada con DNI N° 04817102, con una MULTA equivalente a cero coma cincuenta y cuatro (0,54) UIT, por la infracción calificada como grave en materia de agua, por ocupar la faja marginal derecha del rio Madre de Dios sin la autorización correspondiente, ubicada en el sector Puerto Rosario, distrito de y provincia de Tambopata, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0217-2026-12.pdf",
+      "resumen": "ARTÍCULO 1.- OTORGAR autorización de uso temporal de un área de la bifurcación izquierda del rio Inambari para siembra de cultivos, en un área de 4.70 hectáreas (ha), a favor de la señora HUAMAN CHAVEZ, ALEJA identificada con DNI N° 24488309; dicha área se ubica en el sector Ponal, distrito de Inambari, provincia de Tambopata, departamento de Madre de Dios.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0233-2026-03.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
-    "excel_row_number": "4",
-    "archivo_pdf": "64-RD-0218-2026-04.pdf",
-    "codigo_base": "64-RD-0218-2026",
+    "excel_row_number": "17",
+    "archivo_pdf": "59-RD-0234-2026-05.pdf",
+    "codigo_base": "59-RD-0234-2026",
+    "adjuntos": [
+      "59-RD-0234-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0234-2026-01-PLANO.pdf"
+    ],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0234-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-08-25",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "234",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- ACREDITAR la disponibilidad hídrica superficial en vía de regularización con fines de uso acuícola, a favor del Instituto de Investigaciones de la Amazonia Peruana - IIAP, identificado con RUC N° 20171781648, cuya acreditación hídrica es de 103 740.00 m3/año.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0234-2026-05.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "18",
+    "archivo_pdf": "64-RD-0235-2026-04.pdf",
+    "codigo_base": "64-RD-0235-2026",
     "adjuntos": [],
     "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0218-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-07",
+      "titulo": "RD N° 0235-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-08-26",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "218",
+      "numero_resolucion": "235",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- AUTORIZAR la ocupación futura de la faja marginal en la margen izquierda del río Malinowsky, destinadas a la implementación temporal de la Base Militar Fátima y un helipuerto, a favor de la 2DA BRIGADA DE PROTECCION DE LA AMAZONIA DEL EJERCITO DEL PERU con RUC N° 20131369124; dicha área se ubica en el sector Malinowski, distrito de Inambari, provincia de Tambopata y departamento de Madre de Dios; por un plazo máximo de dos (2) años, computado a partir del día siguiente de la notificación de la presente resolución.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0218-2026-04.pdf",
+      "resumen": "ARTÍCULO 1.- OTORGAR, Autorización de Uso de Agua superficial para la ejecución de obras para el proyecto denominado \"Mejoramiento del camino vecinal Aymaña-Pallca, pampa- Lacaya-Puna, Apacheta-Quichu en los distritos de Ollachea y Corani de la provincia Carabaya- departamento de Puno”, a favor de la empresa GRUPO FER CONS S.A.C. identificado con RUC N° 20447689503, cuyo aprovechamiento de agua será por un volumen de hasta 43 519.68 m3.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0235-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "19",
+    "archivo_pdf": "64-RD-0236-2026-04.pdf",
+    "codigo_base": "64-RD-0236-2026",
+    "adjuntos": [
+      "64-RD-0236-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0236-2026-01-PLANO.pdf"
+    ],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0236-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-08-26",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "236",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- OTORGAR, Autorización de Uso de Agua superficial para la ejecución de obras para el proyecto denominado “Mejoramiento del camino Departamental MD-101 tramo: EMP. PE-30C (Santa Rosa) - Puerto Carlos, Distrito de Inambari - Provincia de Tambopata - Departamento de Madre de Dios”, a favor de la Dirección Regional de Transportes y Comunicaciones del Gobierno Regional Madre de Dios con RUC N° 20527143200, cuyo aprovechamiento de agua será por un volumen de hasta 5 346.48 m 3.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0236-2026-04.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
