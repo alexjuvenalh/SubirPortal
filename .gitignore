@@ -16,3 +16,5 @@ Thumbs.db
 
 # OneDrive (archivos de sistema)
 **/desktop.ini
+# Local Pi runtime state
+.atl/
