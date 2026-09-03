@@ -1,231 +1,25 @@
 [
   {
     "excel_row_number": "2",
-    "archivo_pdf": "59-RD-0237-2026-03.pdf",
-    "codigo_base": "59-RD-0237-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
+    "archivo_pdf": "59-RD-0248-2026-04.pdf",
+    "codigo_base": "59-RD-0248-2026",
+    "adjuntos": [
+      "59-RD-0248-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0248-2026-01-PLANO.pdf"
+    ],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0237-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-28",
+      "titulo": "RD N° 0248-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-02",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "237",
+      "numero_resolucion": "248",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- DECLARAR la EXTINCIÓN de la licencia de uso de agua subterránea, otorgada mediante la Resolución Directoral Nro. 248-2017-ANA/AAA-XIII MDD de fecha 19.09.2017, a favor del señor MILTON JOEL MISHAJA MARICHI identificado con DNI N° 42292328, por la causal prevista en el numeral 1 del artículo 70 de la Ley de Recursos Hídricos: Renuncia del titular.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0237-2026-03.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "3",
-    "archivo_pdf": "64-RD-0238-2026-02.pdf",
-    "codigo_base": "64-RD-0238-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0238-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-28",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "238",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- DECLARAR la EXTINCIÓN de la licencia de uso de agua superficial, otorgada mediante la Resolución Administrativa N° 012-2006-MA-ATDRM de fecha 28.02.2006, a favor del señor CCOYO CONDORI, LUIS RENE identificado con DNI N° 02288694, por la causal prevista en el numeral 1 del artículo 70 de la Ley de Recursos Hídricos: Renuncia del titular.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0238-2026-02.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "4",
-    "archivo_pdf": "64-RD-0239-2026-02.pdf",
-    "codigo_base": "64-RD-0239-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0239-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-28",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "239",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- DECLARAR la EXTINCIÓN de la licencia de uso de agua superficial, otorgada mediante la Resolución Directoral Nro. 008-2017-ANA/AAA-XIII MDD de fecha 25.01.2017, a favor del señor HUANCA HUAMANI, CEFERINO identificado con DNI N° 04824790, por la causal prevista en el numeral 1 del artículo 70 de la Ley de Recursos Hídricos: Renuncia del titular.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0239-2026-02.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "5",
-    "archivo_pdf": "64-RD-0240-2026-03.pdf",
-    "codigo_base": "64-RD-0240-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0240-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-28",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "240",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- ACREDITAR la disponibilidad hídrica para el otorgamiento de derecho de uso de agua con fines de uso productivo - otros usos a favor de la GERENCIA REGIONAL DE DESARROLLO AGRARIO con RUC N° 20221107137, para el desarrollo del proyecto denominado \"Mejoramiento de Capacidades para el Desarrollo Integral de los Cultivos de Frutales en la Selva de las Provincias de Sandia y Carabaya de la región Puno\", cuya acreditación hídrica es de 4 656.00 m3/año.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0240-2026-03.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "6",
-    "archivo_pdf": "59-RD-0241-2026-04.pdf",
-    "codigo_base": "59-RD-0241-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0241-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-31",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "241",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR al señor CLEMENTE CCOLQQUE CHAMPI, identificado con DNI N° 24696485, con una AMONESTACIÓN ESCRITA, por la infracción calificada como leve en materia de agua, por utilizar el agua con fines de uso doméstico-poblacional en el centro Poblado Alerta, distrito y provincia de Tahuamanu, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0241-2026-04.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "7",
-    "archivo_pdf": "59-RD-0242-2026-05.pdf",
-    "codigo_base": "59-RD-0242-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0242-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-31",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "242",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR al señor ELIAS ANGEL MERCADO CHALLCO, identificado con DNI N° 42111809, con una AMONESTACIÓN ESCRITA, por la infracción calificada como leve en materia de agua, por ocupar la margen derecha de rio Madre de Dios sin la autorización correspondiente, ubicada en el sector Aguanos, distrito y provincia de Manu, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0242-2026-05.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "8",
-    "archivo_pdf": "59-RD-0243-2026-05.pdf",
-    "codigo_base": "59-RD-0243-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0243-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-31",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "243",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR a la señora ZOLOAGA LAURA, RUSBA identificada con DNI N° 49041003, con una AMONESTACIÓN ESCRITA, por la infracción calificada como leve en materia de agua, por ocupar la ribera y faja marginal derecha de la quebrada Cabo de Hornos 1 sin la autorización correspondiente, ubicada en el sector Cabo de Hornos, distrito y provincia de Manu, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0243-2026-05.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "9",
-    "archivo_pdf": "64-RD-0244-2026-04.pdf",
-    "codigo_base": "64-RD-0244-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0244-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-31",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "244",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- AUTORIZAR a la DIRECCION REGIONAL DE TRANSPORTES Y COMUNICACIONES DEL GOBIERNO REGIONAL DE MADRE DE DIOS con RUC N° 20199189710, la ejecución de obras en fuentes naturales de agua para el proyecto denominado “Mejoramiento del Camino Departamental MD-101 Tramo: Emp. PE-30-C (Santa Rosa) – Puerto Carlos, distrito de Inambari, provincia de Tambopata, departamento de Madre de Dios”.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0244-2026-04.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "10",
-    "archivo_pdf": "59-RD-0245-2026-07.pdf",
-    "codigo_base": "59-RD-0245-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0245-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-31",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "245",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR a la señora AMPUERO ORTIZ, ALBERTINA identificada con DNI N° 10664268, con una sanción administrativa de MULTA equivalente a Cero coma Cincuenta y Dos (0,52) UIT, por la infracción calificada como leve en materia de agua, por ocupar la ribera y/o faja marginal derecha del rio Madre de Dios, ubicado en el sector Itahuania, distrito y provincia de Manu, departamento de madre de Dios, sin autorización de la Autoridad Nacional del Agua.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0245-2026-07.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "11",
-    "archivo_pdf": "59-RD-0246-2026-03.pdf",
-    "codigo_base": "59-RD-0246-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0246-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-31",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "246",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- AUTORIZAR a la señora EMMA CASSA MAMANI con DNI N° 80062188, la ejecución de obras mínimas “otras similares” en fuentes naturales de agua, ubicada en la ribera derecha del rio Madre de Dios, distrito de Madre de Dios, provincia de Manu, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0246-2026-03.pdf",
-      "ambito_administrativo_nivel_1": "17",
-      "ambito_administrativo_nivel_2": "_none"
-    }
-  },
-  {
-    "excel_row_number": "12",
-    "archivo_pdf": "59-RD-0247-2026-04.pdf",
-    "codigo_base": "59-RD-0247-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
-    "url": "https://www.ana.gob.pe/node/add/normatividad",
-    "fields": {
-      "titulo": "RD N° 0247-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-08-31",
-      "hora_rd": "08:00:00",
-      "numero_resolucion": "247",
-      "clasificacion_nivel_1": "115",
-      "clasificacion_nivel_2": "129",
-      "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- ACREDITAR la disponibilidad hídrica para el otorgamiento de derecho de uso de agua con fines de uso agrario a favor del señor ESPIRILLA HUANCACHOQUE, WILBER, identificado con DNI Nº 04825424, el señor CHIARA FLORES, JUAN SOCRATES, identificado con DNI Nº 02363297, el señor APAZA QUINTASI, CIRILO, identificado con DNI Nº 24683156, la señora APAZA GUTIERREZ, MARUJA, identificada con DNI Nº 24697128 y la señora MENDOZA CCOICAPOZA, IVIS INES, identificada con DNI Nº 44769484, para los predios rurales ubicados en los sectores Sudadero y San Francisco, distrito de Las Piedras, provincia de Tambopata, departamento de Madre de Dios, cuya acreditación hídrica es de 65 980.00 m3.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0247-2026-04.pdf",
+      "resumen": "ARTÍCULO 1.- APROBAR los estudios de huella máxima que conforma el estudio técnico denominado “Delimitación de la Faja Marginal de la Quebrada 28 de Julio, en el Sector Nuevo San Martin, ubicado en el distrito y provincia de Tahuamanu, departamento Madre de Dios”, presentada a solicitud de parte, conforme a la metodología establecida en artículo 10 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0248-2026-04.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
