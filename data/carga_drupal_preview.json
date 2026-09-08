@@ -1,25 +1,105 @@
 [
   {
     "excel_row_number": "2",
-    "archivo_pdf": "59-RD-0248-2026-04.pdf",
-    "codigo_base": "59-RD-0248-2026",
-    "adjuntos": [
-      "59-RD-0248-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0248-2026-01-PLANO.pdf"
-    ],
+    "archivo_pdf": "59-RD-0249-2026-07.pdf",
+    "codigo_base": "59-RD-0249-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0248-2026-ANA-AAA.MDD",
+      "titulo": "RD N° 0249-2026-ANA-AAA.MDD",
       "fecha_rd": "2026-09-02",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "248",
+      "numero_resolucion": "249",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- APROBAR los estudios de huella máxima que conforma el estudio técnico denominado “Delimitación de la Faja Marginal de la Quebrada 28 de Julio, en el Sector Nuevo San Martin, ubicado en el distrito y provincia de Tahuamanu, departamento Madre de Dios”, presentada a solicitud de parte, conforme a la metodología establecida en artículo 10 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0248-2026-04.pdf",
+      "resumen": "ARTÍCULO 1.- SANCIONAR a la empresa NICONSTA COMPAÑIA MINERA S.A.C. con RUC 20508440643, con una MULTA equivalente a dieciocho coma doce (18,12) UIT, por la infracción calificada como muy grave en materia de agua, por efectuar vertimiento de aguas residuales sin autorización de la Autoridad Nacional del Agua en la quebrada Fortuna, proveniente de actividad minera.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0249-2026-07.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "3",
+    "archivo_pdf": "64-RD-0250-2026-02.pdf",
+    "codigo_base": "64-RD-0250-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0250-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-07",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "250",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR el ABANDONO del procedimiento administrativo iniciado por la MUNICIPALIDAD DISTRITAL DE COASA con RUC N° 20159410499, sobre la solicitud de Autorización de Ejecución de Obras en Fuentes Naturales de Agua para el proyecto denominado “Mejoramiento de los servicios de protección en riberas de rio vulnerables ante el peligro en el rio Coasa del barrio Las Cantutas, distrito de Coasa de la provincia de Carabaya del departamento de Puno”, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0250-2026-02.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "4",
+    "archivo_pdf": "59-RD-0251-2026-03.pdf",
+    "codigo_base": "59-RD-0251-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0251-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-07",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "251",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR el ABANDONO del procedimiento administrativo iniciado por la MUNICIPALIDAD DISTRITAL DE KOSÑIPATA con RUC N° 20159309933, sobre la solicitud de delimitación de la faja marginal del riachuelo Aguas Santas, ubicado en el distrito de Kosñipata, provincia de Paucartambo, departamento de Cusco, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0251-2026-03.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "5",
+    "archivo_pdf": "64-RD-0252-2026-03.pdf",
+    "codigo_base": "64-RD-0252-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0252-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-07",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "252",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 2.- ACEPTAR el desistimiento al trámite de autorización de ejecución de obras mínimas en fuentes naturales de agua para el proyecto denominado “Ejecución de obras mínimas, protección con material propio y de préstamo, Km 186+182 LD IZQ”, ubicado en el distrito de Macusani, provincia de Carabaya, departamento de Puno, presentado en fecha 27.05.2026 por la empresa INTERSUR CONCESIONES S.A.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0252-2026-03.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "6",
+    "archivo_pdf": "64-RD-0253-2026-02.pdf",
+    "codigo_base": "64-RD-0253-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0253-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-07",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "253",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR el ABANDONO del procedimiento administrativo iniciado por la MUNICIPALIDAD DISTRITAL DE CORANI con RUC N° 20205221353, sobre la solicitud de aprobación del estudio de delimitación de faja marginal del rio Izibilla - Margen Izquierdo, ubicada en el distrito de Corani, provincia de Carabaya, departamento de Puno, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0253-2026-02.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
