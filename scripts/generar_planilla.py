@@ -290,15 +290,46 @@ def _extract_resuelve_articles(clean_text: str, limit: int) -> list[str]:
     return articles
 
 
+RESUELVE_MARKER_RE = re.compile(r"RESUELVE\s*:", re.I)
+ARTICULO_MARKER_RE = re.compile(
+    r"ART[ÍI]CULO\s+(?:1[0-9]|20|[1-9])\s*[°º]?\s*\.-", re.I
+)
+
+
+def recortar_a_parte_resolutiva(clean_text: str) -> str:
+    """Deja solo la parte resolutiva de la resolución (después del último 'SE RESUELVE:').
+
+    En las RD de reconsideración y apelación los CONSIDERANDO transcriben
+    literalmente los artículos de la resolución recurrida (p. ej. 'I. ARTICULO 2.- ...').
+    Sin este recorte, el extractor tomaba esos artículos como si fueran resolutivos
+    y el resumen del portal describía la RD anterior, no la nueva.
+
+    Solo recorta si hay al menos un artículo después del marcador; si no,
+    devuelve el texto intacto para no perder contenido.
+    """
+    matches = list(RESUELVE_MARKER_RE.finditer(clean_text))
+    if not matches:
+        return clean_text
+
+    # Se usa el último marcador: 'se resuelve:' puede aparecer también en los fundamentos.
+    last = matches[-1]
+    if not ARTICULO_MARKER_RE.search(clean_text[last.start():]):
+        return clean_text
+
+    # El marcador se conserva para que _extract_resuelve_articles siga funcionando.
+    return clean_text[last.start():]
+
+
 def extract_articles(text: str, limit: int = 3) -> list[str]:
     clean_text = remove_authenticity_footers(text)
+    clean_text = recortar_a_parte_resolutiva(clean_text)
 
     # Intentar primero el formato estándar ARTÍCULO X.-
     articles = _extract_articulo_articles(clean_text, limit)
     if articles:
         return articles
 
-    # Si no hay, intentar el formato alternativo RESUELVE: PRIMERO. - / SEGUNDO. -
+    # Si no hay, intentar el formato alternativo RESUELVE: PRIMERO. - / SEGUNDO. - ...
     return _extract_resuelve_articles(clean_text, limit)
 
 
