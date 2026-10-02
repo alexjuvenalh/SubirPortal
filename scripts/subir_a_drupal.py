@@ -99,7 +99,7 @@ class DrupalUploadBot:
         """Espera a que el usuario inicie sesión manualmente y navegue al formulario.
 
         Hace polling cada 3 segundos hasta que aparece #edit-title-0-value
-        en la página actual. Timeout: 5 minutos.
+        en la página actual. Timeout: 30 minutos.
         """
         self.log("\n  ╔══════════════════════════════════════════════╗")
         self.log("  ║  ACCIÓN REQUERIDA:                           ║")
@@ -108,7 +108,7 @@ class DrupalUploadBot:
         self.log("  ║  El bot espera y continúa automáticamente...  ║")
         self.log("  ╚══════════════════════════════════════════════╝")
 
-        max_attempts = 100  # 100 * 3s = 5 minutos
+        max_attempts = 600  # 600 * 3s = 30 minutos (login manual del operador)
         for i in range(max_attempts):
             await asyncio.sleep(3)
             try:
@@ -120,7 +120,7 @@ class DrupalUploadBot:
             if i > 0 and i % 20 == 0:
                 self.log(f"  ⏳ Esperando login... ({i * 3}s transcurridos)")
 
-        self.log("  ❌ Timeout: 5 minutos sin detectar el formulario.")
+        self.log("  ❌ Timeout: 30 minutos sin detectar el formulario.")
         return False
 
     async def ensure_logged_in(self, page: Page) -> bool:
