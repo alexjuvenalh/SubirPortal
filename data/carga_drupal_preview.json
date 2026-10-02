@@ -1,105 +1,371 @@
 [
   {
     "excel_row_number": "2",
-    "archivo_pdf": "59-RD-0268-2026-03.pdf",
-    "codigo_base": "59-RD-0268-2026",
+    "archivo_pdf": "59-RD-0273-2026-02.pdf",
+    "codigo_base": "59-RD-0273-2026",
     "adjuntos": [],
     "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0268-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-09-21",
+      "titulo": "RD N° 0273-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-29",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "268",
+      "numero_resolucion": "273",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- DECLARAR IMPROCEDENTE la solicitud presentada por el señor EDWIN CACERES CASTRO identificado con DNI N° 43238870, sobre modificación de la delimitación de la faja marginal mediante huella máxima del humedal Campo Verde, en el centro poblado El Triunfo, distrito de Las Piedras, provincia de Tambopata, departamento de Madre de Dios, aprobada mediante la Resolución Directoral N° 0184-2023-ANA-AAA.MDD de fecha 02.08.2023, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0268-2026-03.pdf",
+      "resumen": "ARTÍCULO 1.- DECLARAR la EXTINCIÓN de la licencia de uso de agua superficial, otorgada mediante la Resolución Directoral N° 0738-2019-ANA-AAA.MDD de fecha 16.12.2019, a favor del señor OLGER JACINTO MOCHCCO MUÑOZ identificado con DNI N° 28806840, por la causal prevista en el numeral 1 del artículo 70 de la Ley de Recursos Hídricos: Renuncia del titular.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0273-2026-02.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "3",
-    "archivo_pdf": "59-RD-0269-2026-10.pdf",
-    "codigo_base": "59-RD-0269-2026",
-    "adjuntos": [],
-    "adjuntos_rutas": [],
+    "archivo_pdf": "59-RD-0274-2026-05.pdf",
+    "codigo_base": "59-RD-0274-2026",
+    "adjuntos": [
+      "59-RD-0274-2026-05-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0274-2026-05-PLANO.pdf"
+    ],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0269-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-09-22",
+      "titulo": "RD N° 0274-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-29",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "269",
+      "numero_resolucion": "274",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- SANCIONAR al administrado LUIS ALBERTO RAYMUNDO NAVARRO identificado con DNI N° 04822442, con una MULTA equivalente a 23,51 UIT, por la infracción calificada como MUY GRAVE en materia de agua, por efectuar vertimiento de aguas residuales en el río Madre de Dios sin autorización de la Autoridad Nacional del Agua, proveniente de la operación de lavado de material aurífero en chute por granulometría.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0269-2026-10.pdf",
+      "resumen": "ARTÍCULO 1.- APROBAR los estudios de huella máxima que conforma el estudio técnico denominado “Estudio de delimitación de la faja marginal de la Quebrada Choque, mediante la metodología de Huella Máxima, en el Centro Poblado de Choque, distrito de Huepetuhe, provincia de Manu, departamento de Madre de Dios”, elaborado por el Área Técnica de esta Autoridad Administrativa del Agua, conforme a la metodología establecida en artículo 10 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0274-2026-05.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "4",
-    "archivo_pdf": "59-RD-0270-2026-04.pdf",
-    "codigo_base": "59-RD-0270-2026",
+    "archivo_pdf": "64-RD-0275-2026-04.pdf",
+    "codigo_base": "64-RD-0275-2026",
     "adjuntos": [],
     "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0270-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-09-22",
+      "titulo": "RD N° 0275-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-29",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "270",
+      "numero_resolucion": "275",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- AUTORIZAR a la MUNICIPALIDAD DISTRITAL DE LABERINTO con RUC N° 20191237405, la ejecución de obras mínimas “otras similares” en fuentes naturales de agua denominada “Mantenimiento del área de embarque y desembarque fluvial y mantenimiento de la protección existente de la orilla del río Madre de Dios en el sector Puerto Rosario, distrito de Laberinto, provincia de Tambopata, departamento de Madre de Dios”, ubicada en la faja marginal derecha del rio Madre de Dios, distrito de Laberinto, provincia de Tambopata, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0270-2026-04.pdf",
+      "resumen": "ARTÍCULO 1.- OTORGAR, Autorización de Uso de Agua superficial para ejecución de obra “IOARR: Construcción de Estructura de Protección en la Central de Generación de Energía Eléctrica, distrito de Ollachea, provincia de Carabaya, departamento de Puno - Prolongación del Canal de Purga”, a favor de la EMPRESA DE GENERACION ELECTRICA SAN GABAN S.A. con RUC N° 20262221335, cuyo aprovechamiento de agua será por un volumen de hasta 1,897.34 m3.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0275-2026-04.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "5",
-    "archivo_pdf": "RD-0271-2026-03.pdf",
-    "codigo_base": "RD-0271-2026",
+    "archivo_pdf": "59-RD-0276-2026-03.pdf",
+    "codigo_base": "59-RD-0276-2026",
     "adjuntos": [],
     "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0271-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-09-28",
+      "titulo": "RD N° 0276-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-29",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "271",
+      "numero_resolucion": "276",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- Delegación de competencias para el año 2026 1.1 Delegar a los Administradores de las Administraciones Locales de Agua del ámbito de la Autoridad Administrativa del Agua Madre de Dios, la competencia de resolver, en primera instancia administrativa, durante el 2026 los procedimientos administrativos que se detallan a continuación: a. Autorización de uso de agua (Procedimiento TUPA - Código PA1100AB4E) b. Prórroga de autorización de uso de agua (Procedimiento TUPA – Código PA1100ECC5) c. Licencia de uso de agua provisional (Procedimiento TUPA – Código PA11004CF8) d. Otorgamiento de licencia de uso de agua (Procedimiento TUPA – Código PA11006E44) e. Prórroga de autorización de reúso de agua residual tratada (Procedimiento TUPA - Código PA110069B8) f. Autorización para la instalación de instrumentos de medición y la ejecución de obras mínimas (Art. 38 del Reglamento aprobado con Resolución Jefatural N° 007-2015- ANA) 1.2 En los actos administrativos que emitan las Administraciones Locales del Agua en el marco de lo dispuesto en el numeral precedente, deben señalar expresamente que intervienen en mérito a la delegación otorgada mediante la presente resolución.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\RD-0271-2026-03.pdf",
+      "resumen": "ARTÍCULO 1.- RECTIFICAR con efecto retroactivo, el error material y aritmético advertido el artículo 1 de la parte resolutiva de la Resolución Directoral N 0129-2021-ANA-AAA.MDD de fecha 27.07.2021; en el siguiente sentido: DICE: Resolución Directoral N° 123-2013-ANA/ALA INAMBARI DEBE DECIR: Resolución Administrativa N° 126-2013-ANA/ALA INAMBARI.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0276-2026-03.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "6",
-    "archivo_pdf": "59-RD-0272-2026-05.pdf",
-    "codigo_base": "59-RD-0272-2026",
+    "archivo_pdf": "59-RD-0277-2026-05.pdf",
+    "codigo_base": "59-RD-0277-2026",
     "adjuntos": [],
     "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0272-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-09-28",
+      "titulo": "RD N° 0277-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-29",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "272",
+      "numero_resolucion": "277",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- Declarar INFUNDADO el recurso de reconsideración interpuesto por la señora MARCELA CCAMA LIPA identificada con DNI N° 80588309, contra la Resolución Directoral N° 0214-2026-ANA-AAA.MDD de fecha 04.08.2026, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0272-2026-05.pdf",
+      "resumen": "ARTÍCULO 1.- ARCHIVAR el procedimiento administrativo sancionador iniciado contra la empresa ELECNOR PERU S.A.C. con RUC 20256265916, por los fundamentos expresados en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0277-2026-05.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "7",
+    "archivo_pdf": "59-RD-0278-2026-04.pdf",
+    "codigo_base": "59-RD-0278-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0278-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "278",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- ARCHIVAR el procedimiento administrativo sancionador iniciado contra la COMUNIDAD NATIVA ISLA DE LOS VALLES con RUC 20527750866, por los fundamentos expresados en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0278-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "8",
+    "archivo_pdf": "59-RD-0279-2026-07.pdf",
+    "codigo_base": "59-RD-0279-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0279-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "279",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- ARCHIVAR el procedimiento administrativo sancionador iniciado contra la administrada ROSA CCOSCCO TUNQUI identificada con DNI N° 80045293, por los fundamentos expresados en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0279-2026-07.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "9",
+    "archivo_pdf": "64-RD-0280-2026-04.pdf",
+    "codigo_base": "64-RD-0280-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0280-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "280",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- ACREDITAR la disponibilidad hídrica para el otorgamiento de derecho de uso de agua con fines de uso poblacional a favor de la empresa HYDRO GLOBAL PERU S.A.C. con RUC Nº 20600538251, para abastecimiento del campamento EPC (Sangari), ubicada en el distrito de San Gabán, provincia de Carabaya, departamento Puno, cuya acreditación hídrica es de 33 215.00 m3/año.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0280-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "10",
+    "archivo_pdf": "59-RD-0281-2026-05.pdf",
+    "codigo_base": "59-RD-0281-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0281-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "281",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- SANCIONAR a la señora RENE CARRERO LLATANCE identificado con DNI N° 46412527, con una AMONESTACIÓN ESCRITA, por la infracción calificada como leve en materia de agua, por usar el recurso hídrico de una fuente subterránea con fines agrarios, sin contar con un derecho de uso de agua, otorgado por la Autoridad Nacional del Agua en la unidad operativa predio ubicado en el sector Nuevo Iñapari, Trocha carrozable Bélgica - Iñapari, distrito de Iñapari, provincia de Tahuamanu.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0281-2026-05.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "11",
+    "archivo_pdf": "59-RD-0282-2026-06.pdf",
+    "codigo_base": "59-RD-0282-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0282-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "282",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- SANCIONAR al Caserío Guacamayo Pacal, representada por la Sra. Nelida Tueros Vargas, con DNI N°44001573, con una AMONESTACIÓN ESCRITA, por la infracción calificada como muy leve en materia de agua, por usar el recurso hídrico de una fuente superficial con fines poblacional, sin contar con un derecho de uso de agua.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0282-2026-06.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "12",
+    "archivo_pdf": "59-RD-0283-2026-04.pdf",
+    "codigo_base": "59-RD-0283-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0283-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "283",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- ACREDITAR la disponibilidad hídrica para el otorgamiento de derecho de uso de agua con fines de uso agrario a favor del señor WILFREDO QUISPE CONDORI identificado con DNI Nº 44082185, el señor CIPRIANO DIAZ HUAMAN identificado con DNI Nº 24280095, el señor HIGIDIO NILO BERRIO PACUALA identificado con DNI Nº 48215326, el señor ABEL BERRIO PACUALA identificado con DNI N° 42168369, el señor VALENTIN CCOLQUE QUISPE identificado con DNI N° 04821052, para los predios rurales ubicados en el sector de Sudadero, distritos de Las Piedras, provincia de Tahuamanu, departamento de Madre de Dios, cuya acreditación hídrica es de 65 980.00 m3/año.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0283-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "13",
+    "archivo_pdf": "59-RD-0284-2026-05.pdf",
+    "codigo_base": "59-RD-0284-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0284-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "284",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- ARCHIVAR el procedimiento administrativo sancionador iniciado contra los administrados MARIO GONZALES YRARICA con DNI N° 04811072 y EDIN HUAYLLAHUA CACHIQUE con DNI N° 10224857, por los fundamentos expresados en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0284-2026-05.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "14",
+    "archivo_pdf": "64-RD-0285-2026-03.pdf",
+    "codigo_base": "64-RD-0285-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0285-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "285",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR la EXTINCIÓN de la licencia de uso de agua con fines mineros, otorgada mediante la Resolución Administrativa N° 0024-2010-ANA-ALAM de fecha 24.02.2010, a favor de la señora LUCIA TTITO QUISPE identificada con DNI N° 04820024, por la causal prevista en el numeral 1 del artículo 70 de la Ley de Recursos Hídricos: Renuncia del titular.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0285-2026-03.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "15",
+    "archivo_pdf": "59-RD-0286-2026-04.pdf",
+    "codigo_base": "59-RD-0286-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0286-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-29",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "286",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR IMPROCEDENTE la solicitud presentada por el señor ANGEL SANTOS ROJAS VALLES, identificado con DNI N° 43591026, en su condición de presidente de la Comunidad Nativa Isla de Los Valles, sobre Otorgamiento de Licencia de Uso de Agua con Fines Poblacionales, de conformidad con los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0286-2026-04.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "16",
+    "archivo_pdf": "64-RD-0287-2026-05.pdf",
+    "codigo_base": "64-RD-0287-2026",
+    "adjuntos": [
+      "64-RD-0287-2026-01-PLANO.pdf",
+      "64-RD-0287-2026-02-ANEXO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0287-2026-01-PLANO.pdf",
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0287-2026-02-ANEXO.pdf"
+    ],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0287-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "287",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- APROBAR los estudios de modelamiento hidráulico que conforma el estudio técnico denominado \"Estudio de la modificación de faja marginal, de un tramo de 0.55 km entre los hitos 006 al 007 en la margen derecha, y entre los hitos 007 al 009 en la margen izquierda de la quebrada Loro Aurora, distrito de Inambari, provincia de Tambopata, departamento de Madre de Dios, aprobado mediante la R.D. N° 0147-2020-ANAAAA. MDD”, elaborado por el Área Técnica de esta Autoridad Administrativa del Agua, conforme a la metodología establecida en artículo 9 del Reglamento para la Delimitación y Mantenimiento de Fajas Marginales.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0287-2026-05.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "17",
+    "archivo_pdf": "59-RD-0288-2026-02.pdf",
+    "codigo_base": "59-RD-0288-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0288-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "288",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR la EXTINCIÓN de la licencia de uso de agua subterránea, otorgada mediante la Resolución Directoral Nro. 374-2017-ANA/AAA-XIII MDD de fecha 21.12.2017, a favor de la señora NELLY JAHLEELL GAHONA KROSS identificada con DNI N° 40218333, por la causal prevista en el numeral 1 del artículo 70 de la Ley de Recursos Hídricos: Renuncia del titular.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0288-2026-02.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "18",
+    "archivo_pdf": "59-RD-0289-2026-06.pdf",
+    "codigo_base": "59-RD-0289-2026",
+    "adjuntos": [
+      "59-RD-0289-2026-01-PLANO.pdf"
+    ],
+    "adjuntos_rutas": [
+      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0289-2026-01-PLANO.pdf"
+    ],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0289-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-09-30",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "289",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR INFUNDADO, la oposición administrativa presentada por el señor ELISEO CHURA VALENCIA, de conformidad con los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0289-2026-06.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
