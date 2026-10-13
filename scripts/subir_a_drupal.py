@@ -96,16 +96,16 @@ class DrupalUploadBot:
             self.log("  ⚠️  AJAX no terminó en el tiempo esperado, continuando...")
 
     async def wait_for_manual_login(self, page: Page) -> bool:
-        """Espera a que el usuario inicie sesión manualmente y navegue al formulario.
+        """Espera a que el usuario inicie sesión manualmente.
 
-        Hace polling cada 3 segundos hasta que aparece #edit-title-0-value
-        en la página actual. Timeout: 30 minutos.
+        Hace polling cada 3 segundos hasta que aparece #edit-title-0-value.
+        Si el login ya terminó pero el navegador quedó en otra página, el bot
+        vuelve a intentar abrir el formulario automáticamente. Timeout: 30 minutos.
         """
         self.log("\n  ╔══════════════════════════════════════════════╗")
         self.log("  ║  ACCIÓN REQUERIDA:                           ║")
-        self.log("  ║  1. Iniciá sesión en la ventana del browser   ║")
-        self.log("  ║  2. Navegá a node/add/normatividad           ║")
-        self.log("  ║  El bot espera y continúa automáticamente...  ║")
+        self.log("  ║  Iniciá sesión en la ventana del browser.     ║")
+        self.log("  ║  El bot abrirá el formulario automáticamente. ║")
         self.log("  ╚══════════════════════════════════════════════╝")
 
         max_attempts = 600  # 600 * 3s = 30 minutos (login manual del operador)
@@ -115,10 +115,17 @@ class DrupalUploadBot:
                 if await page.query_selector(SELECTORS["titulo"]):
                     self.log("  ✅ Formulario detectado! Continuando...")
                     return True
+
+                login_form = await page.query_selector(SELECTORS["login_form"])
+                if login_form is None and "/node/add/normatividad" not in page.url:
+                    self.log("  🔄 Login detectado fuera del formulario; abriendo node/add/normatividad...")
+                    await page.goto("https://www.ana.gob.pe/node/add/normatividad",
+                                    wait_until="domcontentloaded", timeout=NAV_TIMEOUT)
+                    await asyncio.sleep(5)
             except Exception:
-                pass  # Página podría estar cargando
+                pass  # Página podría estar cargando o redirigiendo
             if i > 0 and i % 20 == 0:
-                self.log(f"  ⏳ Esperando login... ({i * 3}s transcurridos)")
+                self.log(f"  ⏳ Esperando login/formulario... ({i * 3}s transcurridos)")
 
         self.log("  ❌ Timeout: 30 minutos sin detectar el formulario.")
         return False
