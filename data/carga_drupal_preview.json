@@ -1,121 +1,189 @@
 [
   {
     "excel_row_number": "2",
-    "archivo_pdf": "64-RD-0290-2026-05.pdf",
-    "codigo_base": "64-RD-0290-2026",
-    "adjuntos": [
-      "64-RD-0290-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0290-2026-01-PLANO.pdf"
-    ],
+    "archivo_pdf": "59-RD-0295-2026-03.pdf",
+    "codigo_base": "59-RD-0295-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0290-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-10-09",
+      "titulo": "RD N° 0295-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-14",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "290",
+      "numero_resolucion": "295",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- ACREDITAR la disponibilidad hídrica superficial en vía de regularización con fines de otros usos (riego de vivero forestal, jardines y servicios higiénicos), a favor de la empresa HYDRO GLOBAL PERU S.A.C. con RUC N° 20600538251, cuya acreditación hídrica es de 93 031.20 m3/año.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0290-2026-05.pdf",
+      "resumen": "ARTÍCULO 1.- RECTIFICAR, con efecto retroactivo, el error material advertido en la identificación del administrado, contenido en el Visto y en los artículos 1 y 3 de la parte resolutiva de la Resolución Directoral N° 0268-2026-ANA-AAA.MDD de fecha 21.09.2026, debiendo entenderse que la administrada y solicitante del procedimiento administrativo es la ASOCIACIÓN UPIS LA ISLA DE BRISAS, y no el señor EDWIN CACERES CASTRO a título personal, manteniéndose subsistentes los demás extremos de la citada resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0295-2026-03.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "3",
-    "archivo_pdf": "64-RD-0291-2026-05.pdf",
-    "codigo_base": "64-RD-0291-2026",
-    "adjuntos": [
-      "64-RD-0291-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0291-2026-01-PLANO.pdf"
-    ],
+    "archivo_pdf": "59-RD-0296-2026-03.pdf",
+    "codigo_base": "59-RD-0296-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0291-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-10-09",
+      "titulo": "RD N° 0296-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-14",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "291",
+      "numero_resolucion": "296",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTICULO 1.- OTORGAR autorización de ejecución de estudios de aprovechamiento hídrico con perforación de pozos exploratorios o para instalación de piezómetros, que no conllevan al otorgamiento de un derecho de uso de agua, a favor de la empresa BEAR CREEK MINING S.A.C. con RUC N° 20519387043, para el proyecto “Corani”, ubicado en el distrito de Corani, provincia de Carabaya, departamento de Puno. Las perforaciones exploratorias y puntos de instalación de piezómetros autorizados corresponden.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0291-2026-05.pdf",
+      "resumen": "ARTÍCULO 1.- ACREDITAR la Disponibilidad Hídrica Subterránea para la Obtención de la Licencia de Uso de Agua subterránea con fines de uso poblacional a favor de la empresa INMOBILIARIA CONSULTORES Y CONTRATISTAS E.I.R.L. con RUC N° 20542802465, para el proyecto ubicado en el sector Santa Teresa, distrito de Las Piedras, provincia de Tambopata, departamento de Madre de Dios, cuya acreditación hídrica es de 28 470.00 m3/año.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0296-2026-03.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "4",
-    "archivo_pdf": "59-RD-0292-2026-04.pdf",
-    "codigo_base": "59-RD-0292-2026",
-    "adjuntos": [
-      "59-RD-0292-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0292-2026-01-PLANO.pdf"
-    ],
+    "archivo_pdf": "64-RD-0297-2026-03.pdf",
+    "codigo_base": "64-RD-0297-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0292-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-10-12",
+      "titulo": "RD N° 0297-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-14",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "292",
+      "numero_resolucion": "297",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- OTORGAR Autorización de Uso Temporal de un Área de Terreno de la Faja Marginal derecha del rio Madre de Dios para siembra de cultivos de 4.77 ha., a favor de la señora AIDA CARMEN CHAETA SHANOCUA identificada con DNI N° 04818786, dicha área se ubica en el sector Tres Islas, distrito de Tambopata, provincia de Tambopata, departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0292-2026-04.pdf",
+      "resumen": "ARTÍCULO 1.- PRORROGAR, por única vez, la vigencia de la acreditación de disponibilidad hídrica superficial con fines agrarios para el desarrollo del proyecto denominado \"Creación del Servicio de Provisión de Agua para Riego del Sistema de Riego Amoyo y Quesñani de la Comunidad de Quiaca Ayllu del Distrito de Sandia - Provincia de Sandia - Departamento de Puno”, otorgada mediante la Resolución Directoral N° 0271-2024-ANA-AAA.MDD de fecha 18.09.2024, a favor de la MUNICIPALIDAD PROVINCIAL DE SANDIA con RUC N° 20192145831.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0297-2026-03.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "5",
-    "archivo_pdf": "64-RD-0293-2026-05.pdf",
-    "codigo_base": "64-RD-0293-2026",
-    "adjuntos": [
-      "64-RD-0293-2026-01-PLANO.pdf"
-    ],
-    "adjuntos_rutas": [
-      "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0293-2026-01-PLANO.pdf"
-    ],
+    "archivo_pdf": "64-RD-0298-2026-03.pdf",
+    "codigo_base": "64-RD-0298-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0293-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-10-12",
+      "titulo": "RD N° 0298-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-16",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "293",
+      "numero_resolucion": "298",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- OTORGAR Autorización de Uso Temporal de un área de terreno de la bifurcación derecha del rio Inambari para siembra de cultivos de 4.86 ha a favor de la señora AGUSTINA VALERIANO ALVAREZ, identificada con DNI N° 31344865; dicha área se ubica en el sector Boca Chiforongo, distrito de Inambari, provincia de Tambopata y departamento de Madre de Dios.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0293-2026-05.pdf",
+      "resumen": "ARTÍCULO 1.- DECLARAR IMPROCEDENTE la solicitud presentada por la MUNICIPALIDAD DEL CENTRO POBLADO DE AYMAÑA con RUC N° 20448306632, sobre acreditación de disponibilidad hídrica subterránea con fines agrarios, para el proyecto denominado “Estudio para la Obtención de Licencia de uso de Agua Subterránea de Pozo Tubular del Centro Poblado de Aymaña”, ubicada en el centro poblado de Aymaña, distrito de Corani, provincia de Carabaya, departamento de Puno, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0298-2026-03.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
   },
   {
     "excel_row_number": "6",
-    "archivo_pdf": "64-RD-0294-2026-09.pdf",
-    "codigo_base": "64-RD-0294-2026",
+    "archivo_pdf": "59-RD-0299-2026-03.pdf",
+    "codigo_base": "59-RD-0299-2026",
     "adjuntos": [],
     "adjuntos_rutas": [],
     "url": "https://www.ana.gob.pe/node/add/normatividad",
     "fields": {
-      "titulo": "RD N° 0294-2026-ANA-AAA.MDD",
-      "fecha_rd": "2026-10-13",
+      "titulo": "RD N° 0299-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-16",
       "hora_rd": "08:00:00",
-      "numero_resolucion": "294",
+      "numero_resolucion": "299",
       "clasificacion_nivel_1": "115",
       "clasificacion_nivel_2": "129",
       "clasificacion_hidden": "129",
-      "resumen": "ARTÍCULO 1.- Declarar FUNDADO EN PARTE el recurso de reconsideración, interpuesto por la empresa MINERA SECA AGUAJAL S.A. identificada con RUC N° 20528082786, contra la Resolución Directoral N° 0220-2026-ANA-AAA.MDD de fecha 11.08.2026, respecto de los extremos relacionados con la determinación de los costos evitados y la consecuente cuantificación de la sanción, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
-      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0294-2026-09.pdf",
+      "resumen": "ARTÍCULO 1.- DECLARAR IMPROCEDENTE la solicitud presentada por la empresa TURISMO Y CONSERVACIÓN S.A.C. con RUC N° 20602052703, sobre acreditación de disponibilidad hídrica para el otorgamiento de derechos de uso de agua, para el proyecto denominado “Wayqecha Lodge”, ubicado en el sector Esperanza, distrito de Kosñipata, provincia de Paucartambo, departamento de Cusco, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0299-2026-03.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "7",
+    "archivo_pdf": "64-RD-0300-2026-03.pdf",
+    "codigo_base": "64-RD-0300-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0300-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-16",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "300",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- AUTORIZAR a la señora MARCOSA SAICO SUMIRE, identificada con DNI N° 24705311, la ejecución de obras mínimas en fuentes naturales de agua para la limpieza y descolmatación del cauce de la quebrada Madriguera, ubicada en el sector Dos de Mayo, distrito de Inambari, provincia de Tambopata, departamento de Madre de Dios",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0300-2026-03.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "8",
+    "archivo_pdf": "64-RD-0301-2026-03.pdf",
+    "codigo_base": "64-RD-0301-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0301-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-20",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "301",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR IMPROCEDENTE la solicitud presentada por la empresa INVERSIONES CAIMAN S.A.C. con RUC N° 20613253468, sobre otorgamiento de licencia de uso de agua subterránea con fines de uso minero, en el marco del procedimiento establecido en la Resolución Jefatural N° 035-2018-ANA, como parte del proceso de formalización minera integral (actividades de pequeña minería y minería artesanal) regulado por los Decretos Legislativos N° 1293 y N° 1336, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\64-RD-0301-2026-03.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "9",
+    "archivo_pdf": "59-RD-0302-2026-03.pdf",
+    "codigo_base": "59-RD-0302-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0302-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-20",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "302",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR IMPROCEDENTE la solicitud presentada por el señor MARTIN GREGORIO PAREJA PAREJA, con DNI N° 05071146, sobre la delimitación de faja marginal de la quebrada Chonta, ubicada en el sector Las Mercedes, distrito de Tambopata, provincia de Tambopata, departamento de Madre de Dios, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0302-2026-03.pdf",
+      "ambito_administrativo_nivel_1": "17",
+      "ambito_administrativo_nivel_2": "_none"
+    }
+  },
+  {
+    "excel_row_number": "10",
+    "archivo_pdf": "59-RD-0303-2026-02.pdf",
+    "codigo_base": "59-RD-0303-2026",
+    "adjuntos": [],
+    "adjuntos_rutas": [],
+    "url": "https://www.ana.gob.pe/node/add/normatividad",
+    "fields": {
+      "titulo": "RD N° 0303-2026-ANA-AAA.MDD",
+      "fecha_rd": "2026-10-20",
+      "hora_rd": "08:00:00",
+      "numero_resolucion": "303",
+      "clasificacion_nivel_1": "115",
+      "clasificacion_nivel_2": "129",
+      "clasificacion_hidden": "129",
+      "resumen": "ARTÍCULO 1.- DECLARAR el ABANDONO del procedimiento administrativo iniciado por la señora Victoria Taipe Villegas, identificada con DNI Nº 05062339, en representación de diez (10) beneficiarios de los sectores Miraflores, Bello Horizonte y Villa Primavera, sobre la solicitud de acreditación de disponibilidad hídrica subterránea y autorización de ejecución de obras de aprovechamiento hídrico subterráneo para la obtención de licencia de uso de agua con fines de uso agrario, en el marco del proyecto “Recuperación de Ecosistemas Forestales Bajo Sistemas Silvopastoriles, Impactados por Actividades Antrópicas en los Distritos de Tahuamanu, Iberia e Iñapari de la Provincia de Tahuamanu, Departamento de Madre de Dios”, por los fundamentos expuestos en la parte considerativa de la presente resolución.",
+      "ruta_pdf": "D:\\Datos\\OneDrive - Autoridad Nacional del Agua\\MDD 2026\\AAA\\SubirPortal\\pdfs\\nuevos\\59-RD-0303-2026-02.pdf",
       "ambito_administrativo_nivel_1": "17",
       "ambito_administrativo_nivel_2": "_none"
     }
